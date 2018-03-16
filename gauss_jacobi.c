@@ -50,17 +50,6 @@ void show_results(float A[MATZISE][MATZISE], float B[MATZISE], float X[MATZISE],
     printf("\nM=\n%d\n\n", n_it);
 }
 
-float norm_vector(float vector[]) {
-    int i;
-    float sum = 0;
-
-    for (i = 0; i < MATZISE; i++)
-        sum += vector[i] * vector[i];
-    
-    //return sqrt(sum);
-    return sum;
-}
-
 void main() {
     float A[MATZISE][MATZISE], X[MATZISE], B[MATZISE], x[MATZISE], aux[MATZISE];
     int i, j, n_it = 0;
@@ -99,10 +88,11 @@ void main() {
             X[i]=(1/A[i][i])*(B[i]-total);
         }
 
-        for (i = 0; i < MATZISE; i++)
-            aux[i] = x[i] - X[i];
-        
-        normVal = norm_vector(aux);
+        total=0;
+        for (i = 0; i < MATZISE; i++) //norm
+            total += (x[i] - X[i]) * (x[i] - X[i]);
+        //normVal = sqrt(total);
+        normVal = total;
         
         n_it++;
     }
