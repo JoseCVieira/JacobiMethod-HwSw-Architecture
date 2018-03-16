@@ -99,7 +99,7 @@ void main() {
         
         for (i = 0; i < MATZISE; i++)
             aux[i] = x[i] - X[i];
-        normVal=norm_vector(aux);
+        normVal = norm_vector(aux);
         
         n_it++;
     }
