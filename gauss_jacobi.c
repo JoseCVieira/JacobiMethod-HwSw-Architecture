@@ -3,7 +3,7 @@
 #include <math.h>
 
 #define MATZISE 10
-#define TOLERANCIA 0.00001
+#define MAX_ERROR 0.0000001
 
 void print_vector(float vector[]) {
     int i;
@@ -27,10 +27,10 @@ void show_results(float A[MATZISE][MATZISE], float B[MATZISE], float X[MATZISE],
     float aux[MATZISE] = {0};
     
     printf("\n\n-- Gauss Jacobi\n\n=> [A]*[X]=[B], A[n*n], X[n*1], B[n*1]\n\n");
-    printf("A => matriz com os coeficientes\n");
-    printf("B => resultado da multiplicao\n");
-    printf("X => solucao\n");
-    printf("M => nr de iteracoes\n");
+    printf("A => coefficient matrix\n");
+    printf("B => multiplication result\n");
+    printf("X => solution\n");
+    printf("M => nb iterations\n");
     
     printf("\nA=\n");
     print_matrix(A);
@@ -38,36 +38,38 @@ void show_results(float A[MATZISE][MATZISE], float B[MATZISE], float X[MATZISE],
     print_vector(B);
     printf("\nX=\n");
     print_vector(X);
-    printf("\nM=\n%d\n", n_it);
-    printf("\nA*X=\n");
+    printf("\n|B-(A*X)|=\n");
         
-    for(i = 0; i < MATZISE; i++)
+    for(i = 0; i < MATZISE; i++){
         for(j = 0; j < MATZISE; j++)
             aux[i] += A[i][j]*X[j];
         
+        aux[i] = fabs(B[i]-aux[i]);
+    }
     print_vector(aux);
-    printf("\n");
+    printf("\nM=\n%d\n\n", n_it);
 }
 
 float norm_vector(float vector[]) {
-    int i, j;
-    float sum = 0.0;
+    int i;
+    float sum = 0;
 
     for (i = 0; i < MATZISE; i++)
         sum += vector[i] * vector[i];
     
-    return sqrt(sum);
+    //return sqrt(sum);
+    return sum;
 }
 
 void main() {
     float A[MATZISE][MATZISE], X[MATZISE], B[MATZISE], x[MATZISE], aux[MATZISE];
     int i, j, n_it = 0;
-    float total, normVal = TOLERANCIA +1, sum;
+    float total, normVal = MAX_ERROR +1, sum;
     time_t t;
     
     srand((unsigned) time(&t)); // seed
     
-    // inicializacoes
+    // init
     for(i = 0; i < MATZISE; i++){
         X[i] = rand() / (float) RAND_MAX * 20 - 10; // rand()=>[-10;10]
         B[i] = rand() / (float) RAND_MAX * 20 - 10;
@@ -80,12 +82,12 @@ void main() {
             sum += fabs(A[i][j]);
         }
         sum -= fabs(A[i][i]);
-        if(sum > fabs(A[i][i])) // garante que se trata de uma matriz diagonal dominante
-            A[i][i] = sum + 1;
+        if(sum > fabs(A[i][i]))
+            A[i][i] = ++sum;    // diagonally dominant matrix
     }
     
     // gauss jacobi
-    while (normVal > TOLERANCIA){
+    while (normVal > MAX_ERROR){
         for (i = 0; i < MATZISE; i++)
             x[i] = X[i];
         
@@ -96,13 +98,15 @@ void main() {
                     total += A[i][j]*X[j];
             X[i]=(1/A[i][i])*(B[i]-total);
         }
-        
+
         for (i = 0; i < MATZISE; i++)
             aux[i] = x[i] - X[i];
+        
         normVal = norm_vector(aux);
         
         n_it++;
     }
     
     show_results(A, B, X, n_it);
+    
 }
