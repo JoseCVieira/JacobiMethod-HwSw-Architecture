@@ -84,7 +84,7 @@ void main() {
             A[i][i] = sum + 1;
     }
     
-    // metudo gauss jacobi
+    // gauss jacobi
     while (normVal > TOLERANCIA){
         for (i = 0; i < MATZISE; i++)
             x[i] = X[i];
@@ -103,7 +103,6 @@ void main() {
         
         n_it++;
     }
-        
-    // prints
+    
     show_results(A, B, X, n_it);
 }
