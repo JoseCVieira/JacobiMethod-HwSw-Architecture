@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;ps_only/src/ps_only_aux.c&apos;" deleteContents="false" description="Delete resource &apos;ps_only/src/ps_only_aux.c&apos;" element1="/ps_only/src/ps_only_aux.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1521669303815"/>
+</session>

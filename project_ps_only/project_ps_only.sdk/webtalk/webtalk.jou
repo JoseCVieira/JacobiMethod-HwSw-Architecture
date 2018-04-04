@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4.1 (64-bit)
+# SW Build 2117270 on Tue Jan 30 15:32:00 MST 2018
+# 
+# Start of session at: Fri Mar 16 18:34:36 2018
+# Process ID: 5528
+# Current directory: C:/Users/ASUS/Desktop/project_ps_only/project_ps_only.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: C:/Users/ASUS/Desktop/project_ps_only/project_ps_only.sdk/webtalk/webtalk.log
+# Journal file: C:/Users/ASUS/Desktop/project_ps_only/project_ps_only.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

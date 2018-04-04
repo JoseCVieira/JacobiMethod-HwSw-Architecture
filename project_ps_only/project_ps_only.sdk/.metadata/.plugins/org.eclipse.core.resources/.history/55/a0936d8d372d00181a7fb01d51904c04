@@ -1,0 +1,55 @@
+void print_vector(float vector[]) {
+    int i;
+
+    for(i = 0; i < MATZISE; i++)
+        printf("%f\n", vector[i]);
+}
+
+void print_matrix(float matrix[MATZISE][MATZISE]) {
+    int i, j;
+
+    for(i = 0; i < MATZISE; i++) {
+        for(j = 0; j < MATZISE; j++)
+            printf("%f ", matrix[i][j]);
+        printf("\n");
+    }
+}
+
+void show_results(float A[MATZISE][MATZISE], float B[MATZISE], float X[MATZISE],
+		int n_it, unsigned long long int clock_cycles, float u_sec) {
+
+    int i, j;
+    float aux[MATZISE] = {0};
+
+    printf("\n\n-- Gauss Jacobi\n\n=> [A]*[X]=[B], A[n*n], X[n*1], B[n*1]\n\n");
+    printf("A => coefficient matrix\n");
+    printf("B => multiplication result\n");
+    printf("X => solution\n");
+    printf("M => nb iterations\n");
+
+    printf("\nA=\n");
+    print_matrix(A);
+    printf("\nB=\n");
+    print_vector(B);
+    printf("\nX=\n");
+    print_vector(X);
+    printf("\n|B-(A*X)|=\n");
+
+    for(i = 0; i < MATZISE; i++){
+        for(j = 0; j < MATZISE; j++)
+            aux[i] += A[i][j]*X[j];
+
+        aux[i] = fabs(B[i]-aux[i]);
+    }
+    print_vector(aux);
+    printf("\nM=\n%d\n", n_it);
+
+    printf("\nclock cycles=\n%llu\n", clock_cycles);
+	printf("\ntime(us)=\n%.2f\n\n", u_sec);
+}
+ *
+ *  Created on: Mar 21, 2018
+ *      Author: ASUS
+ */
+
+

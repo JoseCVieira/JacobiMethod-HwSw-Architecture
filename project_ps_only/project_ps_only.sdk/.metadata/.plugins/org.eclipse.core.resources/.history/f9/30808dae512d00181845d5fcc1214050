@@ -1,0 +1,21 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+#include "xtime_l.h"
+
+#define MATZISE 8
+#define INT_SIZE 4
+#define SIZE_A INT_SIZE * MATZISE * MATZISE
+#define SIZE_B INT_SIZE * MATZISE
+#define SIZE_X INT_SIZE * MATZISE
+#define MAX_ERROR 0.0000001
+
+volatile int *memA, *memB, *memX;
+
+#define A(I,J)  (memA[(I)*MATZISE+(J)])
+#define B(I)    (memB[(I)])
+#define X(I)    (memX[(I)])
+
+#define A_START_ADD 0x10000000
+#define B_START_ADD (A_START_ADD + SIZE_A)
+#define X_START_ADD (A_START_ADD + SIZE_A + SIZE_B)
