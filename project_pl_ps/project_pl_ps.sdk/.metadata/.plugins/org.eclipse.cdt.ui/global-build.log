@@ -1,0 +1,730 @@
+11:41:34 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/llfifo_v5_2/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v5_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make libs in ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src"
+make -C ps7_cortexa9_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling coresightps_dcc"
+arm-none-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/ddrps_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling ddrps"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/llfifo_v5_2/src"
+make -C ps7_cortexa9_0/libsrc/llfifo_v5_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling llfifo"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v6_5/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v6_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v3_5/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_2/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling xadcps"
+'Finished building libraries'
+
+**** Build of configuration Debug for project project_p1 ****
+
+Nothing to build for project project_p1
+11:44:05 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/project_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/project_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/project_p1.d" -MT"src/project_p1.o" -o "src/project_p1.o" "../src/project_p1.c"
+'Finished building: ../src/project_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/project_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project_p1.elf] Error 1
+11:45:33 **** Clean-only build of configuration Debug for project project_p1 ****
+make clean 
+rm -rf  ./src/project_p1.o  ./src/project_p1.d  project_p1.elf.size  project_p1.elf
+' '
+11:45:33 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/project_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/project_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/project_p1.d" -MT"src/project_p1.o" -o "src/project_p1.o" "../src/project_p1.c"
+'Finished building: ../src/project_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/project_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project_p1.elf] Error 1
+11:46:00 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/project_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/project_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/project_p1.d" -MT"src/project_p1.o" -o "src/project_p1.o" "../src/project_p1.c"
+'Finished building: ../src/project_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/project_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project_p1.elf] Error 1
+11:46:32 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/project_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/project_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/project_p1.d" -MT"src/project_p1.o" -o "src/project_p1.o" "../src/project_p1.c"
+'Finished building: ../src/project_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/project_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75116	   2584	  27024	 104724	  19914	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:15:35 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/project_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/project_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/project_p1.d" -MT"src/project_p1.o" -o "src/project_p1.o" "../src/project_p1.c"
+'Finished building: ../src/project_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/project_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/project_p1.o: In function `main':
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:76: undefined reference to `my_axis_fifo_init'
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:82: undefined reference to `my_send_to_fifo'
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:89: undefined reference to `my_send_to_fifo'
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:96: undefined reference to `my_receive_from_fifo'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project_p1.elf] Error 1
+17:16:20 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lib.d" -MT"src/lib.o" -o "src/lib.o" "../src/lib.c"
+'Finished building: ../src/lib.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/lib.o ./src/project_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/project_p1.o: In function `main':
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:76: undefined reference to `my_axis_fifo_init'
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:82: undefined reference to `my_send_to_fifo'
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:89: undefined reference to `my_send_to_fifo'
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/project_p1.c:96: undefined reference to `my_receive_from_fifo'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project_p1.elf] Error 1
+17:16:29 **** Clean-only build of configuration Debug for project project_p1 ****
+make clean 
+rm -rf  ./src/lib.o ./src/project_p1.o  ./src/lib.d ./src/project_p1.d  project_p1.elf.size  project_p1.elf
+' '
+17:16:29 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/lib.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/lib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/lib.d" -MT"src/lib.o" -o "src/lib.o" "../src/lib.c"
+'Finished building: ../src/lib.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/lib.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
+xil-crt0.S:(.text+0x68): undefined reference to `main'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project_p1.elf] Error 1
+17:16:32 **** Clean-only build of configuration Debug for project project_p1 ****
+make clean 
+rm -rf  ./src/lib.o  ./src/lib.d  project_p1.elf.size  project_p1.elf
+' '
+
+****  of configuration Debug for project project_p1 ****
+
+Nothing to build for project project_p1
+17:17:01 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+'Finished building: ../src/matp_axis.c'
+' '
+'Building file: ../src/my_axis_fifo.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/my_axis_fifo.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/my_axis_fifo.d" -MT"src/my_axis_fifo.o" -o "src/my_axis_fifo.o" "../src/my_axis_fifo.c"
+'Finished building: ../src/my_axis_fifo.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79560	   2604	  27136	 109300	  1aaf4	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:22:06 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:30:13 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:31:16 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:43 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:45:32 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80048	   2604	  27152	 109804	  1acec	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:07:27 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:119:45: error: 'MATSIZE' undeclared (first use in this function)
+   nwords = my_send_to_fifo((void *)(memX+(j*MATSIZE)), MATSIZE);
+                                             ^~~~~~~
+../src/matp_axis.c:119:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/matp_axis.c:135:17: error: 'N1' undeclared (first use in this function)
+    if (nwords < N1) {
+                 ^~
+../src/matp_axis.c:144:14: warning: format '%d' expects a matching 'int' argument [-Wformat=]
+     printf("%d \n");
+              ^
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:23: warning: variable 'X_f' set but not used [-Wunused-but-set-variable]
+     float x[MATZISE], X_f[MATZISE];
+                       ^~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATZISE], X_f[MATZISE];
+           ^
+make: *** [src/matp_axis.o] Error 1
+18:07:42 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:119:45: error: 'MATSIZE' undeclared (first use in this function)
+   nwords = my_send_to_fifo((void *)(memX+(j*MATSIZE)), MATSIZE);
+                                             ^~~~~~~
+../src/matp_axis.c:119:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/matp_axis.c:135:17: error: 'N1' undeclared (first use in this function)
+    if (nwords < N1) {
+                 ^~
+../src/matp_axis.c:144:21: error: called object 'memRes' is not a function or function pointer
+     printf("%d \n", memRes(i));
+                     ^~~~~~
+../src/matp_axis.c:15:36: note: declared here
+ volatile int *memA, *memB, *memX, *memRes;
+                                    ^~~~~~
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:23: warning: variable 'X_f' set but not used [-Wunused-but-set-variable]
+     float x[MATZISE], X_f[MATZISE];
+                       ^~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATZISE], X_f[MATZISE];
+           ^
+make: *** [src/matp_axis.o] Error 1
+18:08:05 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:119:45: error: 'MATSIZE' undeclared (first use in this function)
+   nwords = my_send_to_fifo((void *)(memX+(j*MATSIZE)), MATSIZE);
+                                             ^~~~~~~
+../src/matp_axis.c:119:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/matp_axis.c:135:17: error: 'N1' undeclared (first use in this function)
+    if (nwords < N1) {
+                 ^~
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:23: warning: variable 'X_f' set but not used [-Wunused-but-set-variable]
+     float x[MATZISE], X_f[MATZISE];
+                       ^~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATZISE], X_f[MATZISE];
+           ^
+make: *** [src/matp_axis.o] Error 1
+18:08:10 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:119:45: error: 'MATSIZE' undeclared (first use in this function)
+   nwords = my_send_to_fifo((void *)(memX+(j*MATSIZE)), MATSIZE);
+                                             ^~~~~~~
+../src/matp_axis.c:119:45: note: each undeclared identifier is reported only once for each function it appears in
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:23: warning: variable 'X_f' set but not used [-Wunused-but-set-variable]
+     float x[MATZISE], X_f[MATZISE];
+                       ^~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATZISE], X_f[MATZISE];
+           ^
+make: *** [src/matp_axis.o] Error 1
+18:08:47 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:121:17: error: 'MATSIZE' undeclared (first use in this function)
+    if (nwords < MATSIZE) {
+                 ^~~~~~~
+../src/matp_axis.c:121:17: note: each undeclared identifier is reported only once for each function it appears in
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:23: warning: variable 'X_f' set but not used [-Wunused-but-set-variable]
+     float x[MATZISE], X_f[MATZISE];
+                       ^~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATZISE], X_f[MATZISE];
+           ^
+make: *** [src/matp_axis.o] Error 1
+18:09:31 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:23: warning: variable 'X_f' set but not used [-Wunused-but-set-variable]
+     float x[MATSIZE], X_f[MATSIZE];
+                       ^~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATSIZE], X_f[MATSIZE];
+           ^
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78848	   2604	  27136	 108588	  1a82c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:09:37 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:23: warning: variable 'X_f' set but not used [-Wunused-but-set-variable]
+     float x[MATSIZE], X_f[MATSIZE];
+                       ^~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATSIZE], X_f[MATSIZE];
+           ^
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  78848	   2604	  27136	 108588	  1a82c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:09:40 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:10:48 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATSIZE], X_f[MATSIZE];
+           ^
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79040	   2604	  27136	 108780	  1a8ec	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:10:59 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATSIZE], X_f[MATSIZE];
+           ^
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79048	   2604	  27136	 108788	  1a8f4	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:11:01 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:13:03 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:87:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+../src/matp_axis.c:86:15: warning: unused variable 'n_it' [-Wunused-variable]
+     int i, j, n_it = 0;
+               ^~~~
+../src/matp_axis.c:85:11: warning: unused variable 'normVal' [-Wunused-variable]
+     float normVal = MAX_ERROR +1;
+           ^~~~~~~
+../src/matp_axis.c:84:11: warning: unused variable 'x' [-Wunused-variable]
+     float x[MATSIZE], X_f[MATSIZE];
+           ^
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79240	   2604	  27136	 108980	  1a9b4	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:13:05 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:14:44 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80376	   2604	  27136	 110116	  1ae24	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:14:50 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:16:31 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80440	   2604	  27136	 110180	  1ae64	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:16:33 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:16:53 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:17:59 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/matp_axis.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/matp_axis.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/matp_axis.d" -MT"src/matp_axis.o" -o "src/matp_axis.o" "../src/matp_axis.c"
+../src/matp_axis.c: In function 'main':
+../src/matp_axis.c:88:9: warning: unused variable 'total' [-Wunused-variable]
+     int total;
+         ^~~~~
+'Finished building: ../src/matp_axis.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/matp_axis.o ./src/my_axis_fifo.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  80376	   2604	  27136	 110116	  1ae24	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:18:01 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

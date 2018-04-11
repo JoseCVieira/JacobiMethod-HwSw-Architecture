@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4.1 (64-bit)
+# SW Build 2117270 on Tue Jan 30 15:32:00 MST 2018
+# IP Build 2095745 on Tue Jan 30 17:13:15 MST 2018
+# Start of session at: Wed Apr 11 11:24:25 2018
+# Process ID: 3736
+# Current directory: C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.runs/impl_1/design_1_wrapper.vdi
+# Journal file: C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
