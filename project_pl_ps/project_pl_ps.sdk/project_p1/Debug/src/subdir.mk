@@ -7,16 +7,16 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 C_SRCS += \
-../src/matp_axis.c \
-../src/my_axis_fifo.c 
+../src/my_axis_fifo.c \
+../src/ps_pl_p1.c 
 
 OBJS += \
-./src/matp_axis.o \
-./src/my_axis_fifo.o 
+./src/my_axis_fifo.o \
+./src/ps_pl_p1.o 
 
 C_DEPS += \
-./src/matp_axis.d \
-./src/my_axis_fifo.d 
+./src/my_axis_fifo.d \
+./src/ps_pl_p1.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
