@@ -10,7 +10,6 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include <math.h>
 
 #define MAX_VAL ((double)0x7FFFFFFF)
 #define HALF_VAL ((int)0x3FFFFFFF)
@@ -53,24 +52,30 @@ int main(int argc, char *argv[])
   memC = calloc(N1*N3, sizeof (int)) ;
 
   srand(time(NULL));
-    int soma =0;
   for (i = 0; i < N1; ++i) {
     for (j = 0; j < N2; ++j) {
       MEMA(i,j) = RND_INT;
-      soma += abs(MEMA(i,j));
     }
-    if(soma-abs(MEMA(i,i))>abs(MEMA(i,i)))
-    {
-      MEMA(i,i)= soma+1;
+  }
+  for (i = 0; i < N2; ++i) {
+    for (j = 0; j < N3; ++j) {
+      MEMB(i,j) = RND_INT;
     }
   }
 
-
+  for (i = 0; i < N1; ++i) {
+    for (j = 0; j < N3; ++j) {
+      MEMC(i,j) = 0;
+      for (k = 0; k < N2; k++) {
+	MEMC(i,j) += MEMA(i,k) * MEMB(k,j);
+      }
+    }
+  }
 
   fp = fopen("data.bin", "wb");
 
   fwrite(memA, sizeof (int), (N1*N2), fp);
-//  fwrite(memB, sizeof (int), (N2*N3), fp);
+  //fwrite(memB, sizeof (int), (N2*N3), fp);
 
 #if 1
   printf("\n");
