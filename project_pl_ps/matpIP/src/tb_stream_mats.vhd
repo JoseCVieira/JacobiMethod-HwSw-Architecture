@@ -52,17 +52,17 @@ architecture Behavioral of tb_stream_mats is
     type iarrayb is array (0 to 7) of integer;
     
     -- Matrix A by rows
-    signal ia : iarraya := (0, -28,  -7,  21, -7,   6, -41, -37,
-                           29,   0,  41, -18,  1, -46,   4, -12, 
-                          -16,  62,   0, -44, 57,  48,  -8, -20,
-                            2, -62, -51,   0,  4,  59,  45,  -3,
-                           33,  52,  11, -20,  0,  53, -44,  47,
-                          -17,  34, -60,  49, 25,   0,   2, -52,
-                          -16, -55, -63,  26, 61,  29,   0,   5,
-                           34,  -5,  51,   1, 60, -63, -32,  0);
+    signal ia : iarraya := (0, -17,  60,  63, -45, -34, -35,  -1,
+                            1,   0, -35,  57,  17,  -6,  13, -49,
+                           33,   1,   0,  22,  19,  41, -51, -56,
+                           51, -16,  60,   0,  -3,  49, -50, -55,
+                           57,  12, -14, -17,   0,  19, -62,  32,
+                           23, -61,  -8,  63,  56,   0, -12, -61,
+                          -14,  28,  39,   0,  -9,   7,   0,  39,
+                           12, -57,  41,  47,  30, -29, -18,  0);
     
     -- Matrix B by rows
-    signal ib : iarrayb := (-20, 56, -1, 29, -56, -27, -21, -26);
+    signal ib : iarrayb := (57, 55, 43, 50, 57, 61, -41, 11);
     
     signal idataR : integer := 0;
 
@@ -100,7 +100,7 @@ architecture Behavioral of tb_stream_mats is
                     -- send 1 column of b elements
                     -- wait for clk_period*10;
                     selB <= '1';
-                    idataB <= ib(i*1+i);
+                    idataB <= ib(i);
 
                     if i = 7 then
                         S_AXIS_TLAST <= '1';

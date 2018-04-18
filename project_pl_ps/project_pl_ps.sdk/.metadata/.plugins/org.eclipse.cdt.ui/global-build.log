@@ -1150,3 +1150,1582 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
+17:10:28 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:11:33 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:11:59 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:58:28: error: 'X' undeclared (first use in this function)
+             printf("%f\n", X[i]);
+                            ^
+../src/ps_pl_p1.c:58:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+make: *** [src/ps_pl_p1.o] Error 1
+17:12:04 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:58:28: error: 'X' undeclared (first use in this function)
+             printf("%f\n", X[i]);
+                            ^
+../src/ps_pl_p1.c:58:28: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+make: *** [src/ps_pl_p1.o] Error 1
+17:13:09 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:65:18: error: 'X' undeclared (first use in this function)
+   printf("%f\n", X[i]);
+                  ^
+../src/ps_pl_p1.c:65:18: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+make: *** [src/ps_pl_p1.o] Error 1
+17:13:36 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:13:42 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:16:24 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:16:27 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:16:36 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:65:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d\n", memX[i]);
+            ^
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:16:38 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:17:19 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:17:21 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:18:19 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:18:21 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:19:07 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:19:18 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:19:33 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:77:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("%d\n", memA_D_Inv[i]);
+            ^
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:19:34 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:19:43 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:22:48 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:23:50 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:23:54 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:25:08 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:25:10 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:25:51 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:26:38 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:26:40 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:38:27 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:38:47 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:39:38 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:40:00 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:40:30 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:40:32 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:41:02 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:41:03 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:42:20 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:42:36 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:42:55 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:42:58 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:44:00 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:65:12: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("%f\n", memX[i]);
+            ^
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' from incompatible pointer type [-Wincompatible-pointer-types]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:44:03 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:44:16 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:99:21: warning: passing argument 2 of 'show_results' from incompatible pointer type [-Wincompatible-pointer-types]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:99:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27136	 109324	  1ab0c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:44:18 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:46:01 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:103:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:48:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:103:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:48:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:55:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79648	   2604	  27136	 109388	  1ab4c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:46:02 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:46:30 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:103:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:48:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:103:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:48:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:55:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79648	   2604	  27136	 109388	  1ab4c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:49:56 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:102:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:102:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79648	   2604	  27152	 109404	  1ab5c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:50:23 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:102:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:102:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79648	   2604	  27152	 109404	  1ab5c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:50:25 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:54:06 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:101:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:101:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27152	 109340	  1ab1c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:54:09 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:54:30 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:66:12: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("%f\n", memXi[i]);
+            ^
+../src/ps_pl_p1.c:101:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:101:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27152	 109340	  1ab1c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:54:32 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:101:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:46:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:101:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:46:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:53:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79584	   2604	  27152	 109340	  1ab1c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+17:54:34 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:39:44 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:68:9: warning: implicit declaration of function 'A_D_INV' [-Wimplicit-function-declaration]
+         A_D_INV(i) = 1.0f/A(i,i);
+         ^~~~~~~
+../src/ps_pl_p1.c:68:20: error: lvalue required as left operand of assignment
+         A_D_INV(i) = 1.0f/A(i,i);
+                    ^
+../src/ps_pl_p1.c:86:9: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+         ^
+../src/ps_pl_p1.c:86:35: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                   ^
+../src/ps_pl_p1.c:86:40: warning: implicit declaration of function 'RES' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                        ^~~
+../src/ps_pl_p1.c:86:14: error: lvalue required as left operand of assignment
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+              ^
+../src/ps_pl_p1.c:92:21: warning: passing argument 2 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:42:6: note: expected 'float *' but argument is of type 'volatile float *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:92:27: warning: passing argument 3 of 'show_results' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:42:6: note: expected 'int *' but argument is of type 'volatile int *'
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:49:14: warning: variable 'nwords' set but not used [-Wunused-but-set-variable]
+     unsigned nwords;
+              ^~~~~~
+../src/ps_pl_p1.c: At top level:
+../src/ps_pl_p1.c:97:6: error: conflicting types for 'show_results'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec) {
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:42:6: note: previous declaration of 'show_results' was here
+ void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:120:24: error: 'X' undeclared (first use in this function)
+         printf("%f\n", X[i]);
+                        ^
+../src/ps_pl_p1.c:120:24: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/ps_pl_p1.o] Error 1
+18:41:59 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:75:5: error: 'nwords' undeclared (first use in this function)
+     nwords = my_send_to_fifo((void *)memXi, MATSIZE);
+     ^~~~~~
+../src/ps_pl_p1.c:75:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:85:9: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+         ^
+../src/ps_pl_p1.c:85:23: warning: implicit declaration of function 'A_D_INV' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                       ^~~~~~~
+../src/ps_pl_p1.c:85:35: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                   ^
+../src/ps_pl_p1.c:85:40: warning: implicit declaration of function 'RES' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                        ^~~
+../src/ps_pl_p1.c:85:14: error: lvalue required as left operand of assignment
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+              ^
+../src/ps_pl_p1.c:91:21: warning: passing argument 2 of 'show_results' makes integer from pointer without a cast [-Wint-conversion]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:42:6: note: expected 'long long unsigned int' but argument is of type 'volatile float *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:27: error: incompatible type for argument 3 of 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:42:6: note: expected 'float' but argument is of type 'volatile int *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:5: error: too many arguments to function 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_pl_p1.c:42:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:119:24: error: 'X' undeclared (first use in this function)
+         printf("%f\n", X[i]);
+                        ^
+make: *** [src/ps_pl_p1.o] Error 1
+18:42:20 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:78:5: error: 'nwords' undeclared (first use in this function)
+     nwords = my_send_to_fifo((void *)memA, MATSIZE*MATSIZE);
+     ^~~~~~
+../src/ps_pl_p1.c:78:5: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:85:9: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+         ^
+../src/ps_pl_p1.c:85:23: warning: implicit declaration of function 'A_D_INV' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                       ^~~~~~~
+../src/ps_pl_p1.c:85:35: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                   ^
+../src/ps_pl_p1.c:85:40: warning: implicit declaration of function 'RES' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                        ^~~
+../src/ps_pl_p1.c:85:14: error: lvalue required as left operand of assignment
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+              ^
+../src/ps_pl_p1.c:91:21: warning: passing argument 2 of 'show_results' makes integer from pointer without a cast [-Wint-conversion]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:42:6: note: expected 'long long unsigned int' but argument is of type 'volatile float *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:27: error: incompatible type for argument 3 of 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:42:6: note: expected 'float' but argument is of type 'volatile int *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:5: error: too many arguments to function 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_pl_p1.c:42:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:119:24: error: 'X' undeclared (first use in this function)
+         printf("%f\n", X[i]);
+                        ^
+make: *** [src/ps_pl_p1.o] Error 1
+18:42:26 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:85:9: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+         ^
+../src/ps_pl_p1.c:85:23: warning: implicit declaration of function 'A_D_INV' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                       ^~~~~~~
+../src/ps_pl_p1.c:85:35: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                   ^
+../src/ps_pl_p1.c:85:40: warning: implicit declaration of function 'RES' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+                                        ^~~
+../src/ps_pl_p1.c:85:14: error: lvalue required as left operand of assignment
+         X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+              ^
+../src/ps_pl_p1.c:91:21: warning: passing argument 2 of 'show_results' makes integer from pointer without a cast [-Wint-conversion]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:42:6: note: expected 'long long unsigned int' but argument is of type 'volatile float *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:27: error: incompatible type for argument 3 of 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:42:6: note: expected 'float' but argument is of type 'volatile int *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:5: error: too many arguments to function 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_pl_p1.c:42:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:119:24: error: 'X' undeclared (first use in this function)
+         printf("%f\n", X[i]);
+                        ^
+../src/ps_pl_p1.c:119:24: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/ps_pl_p1.o] Error 1
+18:43:04 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:85:39: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+      memX[i] = (float)memA_D_Inv [i]*(B(i)-memRes[i]);
+                                       ^
+../src/ps_pl_p1.c:91:21: warning: passing argument 2 of 'show_results' makes integer from pointer without a cast [-Wint-conversion]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:42:6: note: expected 'long long unsigned int' but argument is of type 'volatile float *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:27: error: incompatible type for argument 3 of 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:42:6: note: expected 'float' but argument is of type 'volatile int *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:5: error: too many arguments to function 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_pl_p1.c:42:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:115:28: warning: implicit declaration of function 'RES' [-Wimplicit-function-declaration]
+             printf("%d\n", RES(i));
+                            ^~~
+../src/ps_pl_p1.c:119:24: error: 'X' undeclared (first use in this function)
+         printf("%f\n", X[i]);
+                        ^
+../src/ps_pl_p1.c:119:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:128:27: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+             aux += A(i,j)*X(j);
+                           ^
+make: *** [src/ps_pl_p1.o] Error 1
+18:43:13 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:91:21: warning: passing argument 2 of 'show_results' makes integer from pointer without a cast [-Wint-conversion]
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^~~~
+../src/ps_pl_p1.c:42:6: note: expected 'long long unsigned int' but argument is of type 'volatile float *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:27: error: incompatible type for argument 3 of 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                           ^~~~~~
+../src/ps_pl_p1.c:42:6: note: expected 'float' but argument is of type 'volatile int *'
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c:91:5: error: too many arguments to function 'show_results'
+     show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_pl_p1.c:42:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:111:25: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         printf("%3d\n", B(i));
+                         ^
+../src/ps_pl_p1.c:115:28: warning: implicit declaration of function 'RES' [-Wimplicit-function-declaration]
+             printf("%d\n", RES(i));
+                            ^~~
+../src/ps_pl_p1.c:119:24: error: 'X' undeclared (first use in this function)
+         printf("%f\n", X[i]);
+                        ^
+../src/ps_pl_p1.c:119:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:128:27: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+             aux += A(i,j)*X(j);
+                           ^
+make: *** [src/ps_pl_p1.o] Error 1
+18:43:19 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:111:25: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         printf("%3d\n", B(i));
+                         ^
+../src/ps_pl_p1.c:115:28: warning: implicit declaration of function 'RES' [-Wimplicit-function-declaration]
+             printf("%d\n", RES(i));
+                            ^~~
+../src/ps_pl_p1.c:119:24: error: 'X' undeclared (first use in this function)
+         printf("%f\n", X[i]);
+                        ^
+../src/ps_pl_p1.c:119:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_pl_p1.c:128:27: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+             aux += A(i,j)*X(j);
+                           ^
+make: *** [src/ps_pl_p1.o] Error 1
+18:44:02 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:128:27: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+             aux += A(i,j)*X(j);
+                           ^
+../src/ps_pl_p1.c:129:29: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         printf("%f\n", fabs(B(i)-aux));
+                             ^
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/ps_pl_p1.o: In function `show_results':
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/ps_pl_p1.c:128: undefined reference to `X'
+C:\Users\ASUS\Desktop\project_pl_ps\project_pl_ps.sdk\project_p1\Debug/../src/ps_pl_p1.c:129: undefined reference to `B'
+collect2.exe: error: ld returned 1 exit status
+make: *** [project_p1.elf] Error 1
+18:44:24 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79440	   2604	  27152	 109196	  1aa8c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+18:44:33 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:44:43 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:67:33: error: expected ')' before ';' token
+      memA_D_Inv[i] = 1.0f/A(i,i);
+                                 ^
+../src/ps_pl_p1.c:94:1: error: expected ';' before '}' token
+ }
+ ^
+../src/ps_pl_p1.c: In function 'show_results':
+../src/ps_pl_p1.c:105:35: error: expected ')' before ';' token
+             printf("%3d ", A(i,j));
+                                   ^
+../src/ps_pl_p1.c:107:5: error: expected ';' before '}' token
+     }
+     ^
+../src/ps_pl_p1.c:128:34: error: expected ')' before ';' token
+             aux += A(i,j)*memX[j];
+                                  ^
+../src/ps_pl_p1.c:130:5: error: expected ';' before '}' token
+     }
+     ^
+../src/ps_pl_p1.c: In function 'main':
+../src/ps_pl_p1.c:134:1: error: expected declaration or statement at end of input
+ }
+ ^
+../src/ps_pl_p1.c:48:19: warning: unused variable 'tEnd' [-Wunused-variable]
+     XTime tStart, tEnd;
+                   ^~~~
+At top level:
+../src/ps_pl_p1.c:96:6: warning: 'show_results' defined but not used [-Wunused-function]
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec) {
+      ^~~~~~~~~~~~
+make: *** [src/ps_pl_p1.o] Error 1
+18:44:46 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79440	   2604	  27152	 109196	  1aa8c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+19:01:54 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:01:59 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:02:49 **** Auto Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_pl_p1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_p1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_pl_p1.d" -MT"src/ps_pl_p1.o" -o "src/ps_pl_p1.o" "../src/ps_pl_p1.c"
+'Finished building: ../src/ps_pl_p1.c'
+' '
+'Building target: project_p1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "project_p1.elf"  ./src/my_axis_fifo.o ./src/ps_pl_p1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: project_p1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size project_p1.elf  |tee "project_p1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  79440	   2604	  27152	 109196	  1aa8c	project_p1.elf
+'Finished building: project_p1.elf.size'
+' '
+19:03:52 **** Incremental Build of configuration Debug for project project_p1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

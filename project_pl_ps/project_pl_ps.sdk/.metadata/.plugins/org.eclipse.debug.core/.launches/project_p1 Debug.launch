@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="com.xilinx.sdk.debug.ui.launchConfigurationWrapper">
 <stringAttribute key="com.xilinx.sdk.gdb.launch.BitStreamPath" value="design_1_wrapper.bit"/>
-<stringAttribute key="com.xilinx.sdk.gdb.launch.DataFiles" value="C:\Users\ASUS\Desktop\project_pl_ps\matrices\data.bin;0x10000000;"/>
+<stringAttribute key="com.xilinx.sdk.gdb.launch.DataFiles" value="C:\Users\ASUS\Desktop\project_pl_ps\matrices\A.bin;0x10000000;C:\Users\ASUS\Desktop\project_pl_ps\matrices\B.bin;0x10000100;C:\Users\ASUS\Desktop\project_pl_ps\matrices\X.bin;0x10001000;"/>
 <stringAttribute key="com.xilinx.sdk.gdb.launch.DebugType" value="STANDALONE_DEBUG"/>
 <booleanAttribute key="com.xilinx.sdk.gdb.launch.ElfNoDownload" value="false"/>
 <stringAttribute key="com.xilinx.sdk.gdb.launch.HwPlatformName" value="design_1_wrapper_hw_platform_0"/>
@@ -31,6 +31,6 @@
 <booleanAttribute key="xilinx.profile.enable" value="false"/>
 <stringAttribute key="xilinx.stdio.baud" value="115200"/>
 <booleanAttribute key="xilinx.stdio.connect" value="true"/>
-<stringAttribute key="xilinx.stdio.port" value="COM4"/>
+<stringAttribute key="xilinx.stdio.port" value="COM14"/>
 <booleanAttribute key="xilinx.xmd.crosstrigger" value="false"/>
 </launchConfiguration>

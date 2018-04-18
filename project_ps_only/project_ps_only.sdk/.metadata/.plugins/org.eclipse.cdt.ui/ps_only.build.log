@@ -1,8 +1,23 @@
-16:03:10 **** Incremental Build of configuration Debug for project ps_only ****
+19:24:09 **** Auto Build of configuration Debug for project ps_only ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-make: Nothing to be done for `main-build'.
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74564	   2584	  27456	 104604	  1989c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
 
-16:03:10 Build Finished (took 136ms)
+19:24:09 Build Finished (took 705ms)
 

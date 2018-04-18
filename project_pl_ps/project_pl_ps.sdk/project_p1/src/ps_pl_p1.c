@@ -25,15 +25,11 @@
 #define MAX_ERROR 0.0000001
 
 /* Define pointers to each memory */
-volatile int *memA, *memB, *memRes;
-volatile float *memX, *memA_D_Inv;
+volatile int *memA, *memB, *memRes, *memXi;
+volatile float *memA_D_Inv, *memX;
 
-/* Define a macro to each memory */
+/* Define a macro */
 #define A(I,J)     (memA[I*MATSIZE+J])
-#define B(I)       (memB[I])
-#define X(I)       (memX[I])
-#define A_D_INV(I) (memA_D_Inv[I])
-#define RES(I)     (memRes[I])
 
 /* Define base address of each memory */
 #define A_START_ADD   0x10000000
@@ -43,20 +39,20 @@ volatile float *memX, *memA_D_Inv;
 #define RES_START_ADD (A_D_INV_ADD + VECTOR_SIZE)
 
 /* Methods */
-void show_results(int n_it, float* memX, int* memRes, unsigned long long int clock_cycles, float u_sec);
+void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
 unsigned my_receive_from_fifo(void *BufPtr, unsigned nWords);
 unsigned my_send_to_fifo(void *BufPtr, unsigned nWords);
 int my_axis_fifo_init();
 
 int main() {
     XTime tStart, tEnd;
-    unsigned nwords;
     int i;
 
     /* Points each pointer to the respective base address */
     memA       = (int *)(A_START_ADD);
     memB       = (int *)(B_START_ADD);
     memRes     = (int *)(RES_START_ADD);
+    memXi      = (int *)(X_START_ADD);
     memX       = (float *)(X_START_ADD);
     memA_D_Inv = (float *)(A_D_INV_ADD);
 
@@ -68,7 +64,7 @@ int main() {
          * apply the "if(i!=j)" in gauss method
          * by putting the diagonal to 0
          */
-        A_D_INV(i) = 1.0f/A(i,i);
+    	memA_D_Inv[i] = 1.0f/A(i,i);
         A(i,i) = 0;
     }
 
@@ -76,28 +72,28 @@ int main() {
     my_axis_fifo_init();
 
     /* Send to fifo vector X */
-    nwords = my_send_to_fifo((void *)memX, MATSIZE);
+    my_send_to_fifo((void *)memXi, MATSIZE);
 
     /* Send to fifo matrix A */
-    nwords = my_send_to_fifo((void *)memA, MATSIZE*MATSIZE);
+    my_send_to_fifo((void *)memA, MATSIZE*MATSIZE);
 
     /* Receive from fifo vector Res */
-    nwords = my_receive_from_fifo((void *)memRes, MATSIZE);
+    my_receive_from_fifo((void *)memRes, MATSIZE);
 
     /* Gauss jacobi - only one iteration thus do not have a stop condition */
     for (i = 0; i < MATSIZE; i++)
-        X(i) = (float)A_D_INV(i)*(B(i)-RES(i));
+    	memX[i] = (float)memA_D_Inv[i]*(memB[i]-memRes[i]);
 
     /* End measuring time */
     XTime_GetTime(&tEnd);
 
     /* Show results */
-    show_results(1, memX, memRes, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+    show_results(1, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
 
     return 0;
 }
 
-void show_results(int n_it, float* X, int* memRes, unsigned long long int clock_cycles, float u_sec) {
+void show_results(int n_it, unsigned long long int clock_cycles, float u_sec) {
     float aux;
     int i, j;
 
@@ -112,15 +108,15 @@ void show_results(int n_it, float* X, int* memRes, unsigned long long int clock_
 
     printf("\nMultiplication result - B=\n");
     for(i = 0; i < MATSIZE; i++)
-        printf("%3d\n", B(i));
+        printf("%3d\n", memB[i]);
 
     printf("\nMultiplication result(HW) - Res=\n");
         for(i = 0; i < MATSIZE; i++)
-            printf("%d\n", RES(i));
+            printf("%d\n", memRes[i]);
 
     printf("\nSolution - X=\n");
     for(i = 0; i < MATSIZE; i++)
-        printf("%f\n", X[i]);
+        printf("%f\n", memX[i]);
 
     printf("\nNumber iterations - M=\n%d\n", n_it);
 
@@ -129,8 +125,8 @@ void show_results(int n_it, float* X, int* memRes, unsigned long long int clock_
     for(i = 0; i < MATSIZE; i++){
         aux = 0;
         for(j = 0; j < MATSIZE; j++)
-            aux += A(i,j)*X(j);
-        printf("%f\n", fabs(B(i)-aux));
+            aux += A(i,j)*memX[j];
+        printf("%f\n", fabs(memB[i]-aux));
     }
 
     printf("\nclock cycles=\n%llu\n", clock_cycles);

@@ -3490,3 +3490,1661 @@ make pre-build main-build
 a9-linaro-pre-build-step
 ' '
 make: Nothing to be done for `main-build'.
+17:32:07 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:38 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:47 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:44:40 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74980	   2584	  27440	 105004	  19a2c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:45:20 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74980	   2584	  27440	 105004	  19a2c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:45:35 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74980	   2584	  27440	 105004	  19a2c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:46:26 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74980	   2584	  27440	 105004	  19a2c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:51:17 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75108	   2584	  27440	 105132	  19aac	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:51:24 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:52:51 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:100:16: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+      printf("%3f ", A_D_INV(i));
+                ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75372	   2584	  27440	 105396	  19bb4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:52:54 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:54:17 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:100:16: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+      printf("%3f ", A_D_INV(i));
+                ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75380	   2584	  27440	 105404	  19bbc	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:54:19 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:54:38 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:56:28 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:56:30 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75516	   2584	  27440	 105540	  19c44	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:56:37 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:57:01 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75516	   2584	  27440	 105540	  19c44	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:57:04 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:57:15 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75516	   2584	  27440	 105540	  19c44	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:57:34 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75324	   2584	  27440	 105348	  19b84	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+17:57:37 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:00:33 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:109:23: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+    printf("A=%3d | X=%f total=%3f\n", A(i,j), X(j), A(i,j)*X(j));
+                       ^
+../src/ps_only.c:109:33: warning: format '%f' expects argument of type 'double', but argument 4 has type 'int' [-Wformat=]
+    printf("A=%3d | X=%f total=%3f\n", A(i,j), X(j), A(i,j)*X(j));
+                                 ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75332	   2584	  27440	 105356	  19b8c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:00:36 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:02:15 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:03:42 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75404	   2584	  27440	 105428	  19bd4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:03:45 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:04:17 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75332	   2584	  27440	 105356	  19b8c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:04:19 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:05:01 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:05:10 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:114:33: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%3d | X=%d total=%3d\n", A(i,j), X(j), total);
+                                 ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75268	   2584	  27440	 105292	  19b4c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:05:13 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:05:43 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75332	   2584	  27440	 105356	  19b8c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:05:46 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:06:20 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:114:33: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%3d | X=%d total=%3d\n", A(i,j), X(j), total);
+                                 ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75268	   2584	  27440	 105292	  19b4c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:06:24 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:06:48 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:114:33: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%3d | X=%d total=%3d\n", A(i,j), X(j), total);
+                                 ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75268	   2584	  27440	 105292	  19b4c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:06:52 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:07:22 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:114:33: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%3d | X=%d total=%3d\n", A(i,j), X(j), total);
+                                 ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75268	   2584	  27440	 105292	  19b4c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:07:30 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:114:33: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%3d | X=%d total=%3d\n", A(i,j), X(j), total);
+                                 ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75268	   2584	  27440	 105292	  19b4c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:07:37 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:114:31: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%d | X=%d total=%d\n", A(i,j), X(j), total);
+                               ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75268	   2584	  27440	 105292	  19b4c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:07:39 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:08:00 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:112:30: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+   printf("A=%d | X=%d total=%d\n", A(i,j), X(j), total);
+                              ^
+../src/ps_only.c:115:31: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%d | X=%d total=%d\n", A(i,j), X(j), total);
+                               ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75332	   2584	  27440	 105356	  19b8c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:08:03 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:08:32 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:112:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+   printf("initial total=%d\n",  total);
+                          ^
+../src/ps_only.c:115:31: warning: format '%d' expects argument of type 'int', but argument 4 has type 'double' [-Wformat=]
+    printf("A=%d | X=%d total=%d\n", A(i,j), X(j), total);
+                               ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75284	   2584	  27440	 105308	  19b5c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:08:34 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:09:05 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75284	   2584	  27440	 105308	  19b5c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:09:12 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:10:29 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75260	   2584	  27440	 105284	  19b44	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:10:32 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:11:13 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75260	   2584	  27440	 105284	  19b44	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:11:18 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:12:15 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75412	   2584	  27440	 105436	  19bdc	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:12:40 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75420	   2584	  27440	 105444	  19be4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:12:43 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:13:33 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75420	   2584	  27440	 105444	  19be4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:13:36 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:13:51 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75420	   2584	  27440	 105444	  19be4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:15:09 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:114:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("A_D_INV=%f | B(i)-total=%d | X_f[i]=%f | res=%f\n", A_D_INV(i), B(i)-total, X_f[i], (float)A_D_INV(i)*(B(i)-total));
+                    ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75660	   2584	  27440	 105684	  19cd4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:15:12 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:16:54 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:95:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("INVA\n", A_D_INV(i));
+          ^~~~~~~~
+../src/ps_only.c:115:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("A_D_INV=%f | B(i)-total=%d | X_f[i]=%f | res=%f\n", A_D_INV(i), B(i)-total, X_f[i], (float)A_D_INV(i)*(B(i)-total));
+                    ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75668	   2584	  27440	 105692	  19cdc	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:16:56 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:17:15 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:95:17: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("INVA=%f\n", A_D_INV(i));
+                 ^
+../src/ps_only.c:115:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("A_D_INV=%f | B(i)-total=%d | X_f[i]=%f | res=%f\n", A_D_INV(i), B(i)-total, X_f[i], (float)A_D_INV(i)*(B(i)-total));
+                    ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75668	   2584	  27440	 105692	  19cdc	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:17:17 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:20:00 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:89:16: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+     memA_D_Inv = (float *)(A_D_INV_ADD);
+                ^
+../src/ps_only.c:95:17: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("INVA=%f\n", A_D_INV(i));
+                 ^
+../src/ps_only.c:115:20: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+   printf("A_D_INV=%f | B(i)-total=%d | X_f[i]=%f | res=%f\n", A_D_INV(i), B(i)-total, X_f[i], (float)A_D_INV(i)*(B(i)-total));
+                    ^
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75668	   2584	  27440	 105692	  19cdc	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:20:03 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:20:47 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75668	   2584	  27440	 105692	  19cdc	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:20:59 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:21:31 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75116	   2584	  27440	 105140	  19ab4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:21:35 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:23:03 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74980	   2584	  27440	 105004	  19a2c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:23:05 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:24:25 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  75116	   2584	  27440	 105140	  19ab4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:24:27 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:51:07 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:37:16: warning: assignment from incompatible pointer type [-Wincompatible-pointer-types]
+     memX       = (int *)(X_START_ADD);
+                ^
+../src/ps_only.c:48:9: warning: implicit declaration of function 'A_D_INV' [-Wimplicit-function-declaration]
+         A_D_INV(i) = 1.0f/A(i,i);
+         ^~~~~~~
+../src/ps_only.c:48:20: error: lvalue required as left operand of assignment
+         A_D_INV(i) = 1.0f/A(i,i);
+                    ^
+../src/ps_only.c:53:21: error: 'MATZISE' undeclared (first use in this function)
+     for (i = 0; i < MATZISE; i++){
+                     ^~~~~~~
+../src/ps_only.c:53:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_only.c:56:29: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+             total += A(i,j)*X(j);
+                             ^
+../src/ps_only.c:58:35: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-total);
+                                   ^
+../src/ps_only.c:58:14: error: lvalue required as left operand of assignment
+         X(i) = (float)A_D_INV(i)*(B(i)-total);
+              ^
+../src/ps_only.c:65:21: error: 'X' undeclared (first use in this function)
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^
+../src/ps_only.c: In function 'show_results':
+../src/ps_only.c:98:27: error: called object 'X' is not a function or function pointer
+             aux += A(i,j)*X(j);
+                           ^
+../src/ps_only.c:70:36: note: declared here
+ void show_results(int n_it, float* X, unsigned long long int clock_cycles, float u_sec) {
+                                    ^
+make: *** [src/ps_only.o] Error 1
+18:51:51 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:49:9: warning: implicit declaration of function 'A_D_INV' [-Wimplicit-function-declaration]
+         A_D_INV(i) = 1.0f/A(i,i);
+         ^~~~~~~
+../src/ps_only.c:49:20: error: lvalue required as left operand of assignment
+         A_D_INV(i) = 1.0f/A(i,i);
+                    ^
+../src/ps_only.c:54:21: error: 'MATZISE' undeclared (first use in this function)
+     for (i = 0; i < MATZISE; i++){
+                     ^~~~~~~
+../src/ps_only.c:54:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_only.c:57:29: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+             total += A(i,j)*X(j);
+                             ^
+../src/ps_only.c:59:35: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         X(i) = (float)A_D_INV(i)*(B(i)-total);
+                                   ^
+../src/ps_only.c:59:14: error: lvalue required as left operand of assignment
+         X(i) = (float)A_D_INV(i)*(B(i)-total);
+              ^
+../src/ps_only.c:66:21: error: 'X' undeclared (first use in this function)
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^
+../src/ps_only.c:66:5: error: too many arguments to function 'show_results'
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_only.c:28:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_only.c: At top level:
+../src/ps_only.c:71:6: error: conflicting types for 'show_results'
+ void show_results(int n_it, float* X, unsigned long long int clock_cycles, float u_sec) {
+      ^~~~~~~~~~~~
+../src/ps_only.c:28:6: note: previous declaration of 'show_results' was here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_only.c: In function 'show_results':
+../src/ps_only.c:99:27: error: called object 'X' is not a function or function pointer
+             aux += A(i,j)*X(j);
+                           ^
+../src/ps_only.c:71:36: note: declared here
+ void show_results(int n_it, float* X, unsigned long long int clock_cycles, float u_sec) {
+                                    ^
+make: *** [src/ps_only.o] Error 1
+18:54:22 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:49:6: error: called object 'memA_D_Inv' is not a function or function pointer
+      memA_D_Inv(i) = 1.0f/A(i,i);
+      ^~~~~~~~~~
+../src/ps_only.c:17:17: note: declared here
+ volatile float *memA_D_Inv, *memX;
+                 ^~~~~~~~~~
+../src/ps_only.c:54:21: error: 'MATZISE' undeclared (first use in this function)
+     for (i = 0; i < MATZISE; i++){
+                     ^~~~~~~
+../src/ps_only.c:54:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_only.c:59:9: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+         X(i) = (float)memA_D_Inv[i]*(memB[i]-total);
+         ^
+../src/ps_only.c:59:14: error: lvalue required as left operand of assignment
+         X(i) = (float)memA_D_Inv[i]*(memB[i]-total);
+              ^
+../src/ps_only.c:66:21: error: 'X' undeclared (first use in this function)
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^
+../src/ps_only.c:66:5: error: too many arguments to function 'show_results'
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_only.c:28:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+../src/ps_only.c: In function 'show_results':
+../src/ps_only.c:100:29: warning: implicit declaration of function 'B' [-Wimplicit-function-declaration]
+         printf("%f\n", fabs(B(i)-aux));
+                             ^
+make: *** [src/ps_only.o] Error 1
+18:54:34 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:49:6: error: called object 'memA_D_Inv' is not a function or function pointer
+      memA_D_Inv(i) = 1.0f/A(i,i);
+      ^~~~~~~~~~
+../src/ps_only.c:17:17: note: declared here
+ volatile float *memA_D_Inv, *memX;
+                 ^~~~~~~~~~
+../src/ps_only.c:54:21: error: 'MATZISE' undeclared (first use in this function)
+     for (i = 0; i < MATZISE; i++){
+                     ^~~~~~~
+../src/ps_only.c:54:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_only.c:59:9: warning: implicit declaration of function 'X' [-Wimplicit-function-declaration]
+         X(i) = (float)memA_D_Inv[i]*(memB[i]-total);
+         ^
+../src/ps_only.c:59:14: error: lvalue required as left operand of assignment
+         X(i) = (float)memA_D_Inv[i]*(memB[i]-total);
+              ^
+../src/ps_only.c:66:21: error: 'X' undeclared (first use in this function)
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^
+../src/ps_only.c:66:5: error: too many arguments to function 'show_results'
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_only.c:28:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+make: *** [src/ps_only.o] Error 1
+18:55:47 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:54:21: error: 'MATZISE' undeclared (first use in this function)
+     for (i = 0; i < MATZISE; i++){
+                     ^~~~~~~
+../src/ps_only.c:54:21: note: each undeclared identifier is reported only once for each function it appears in
+../src/ps_only.c:66:21: error: 'X' undeclared (first use in this function)
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+                     ^
+../src/ps_only.c:66:5: error: too many arguments to function 'show_results'
+     show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+     ^~~~~~~~~~~~
+../src/ps_only.c:28:6: note: declared here
+ void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+      ^~~~~~~~~~~~
+make: *** [src/ps_only.o] Error 1
+18:56:08 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:54:21: error: 'MATZISE' undeclared (first use in this function)
+     for (i = 0; i < MATZISE; i++){
+                     ^~~~~~~
+../src/ps_only.c:54:21: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/ps_only.o] Error 1
+18:56:44 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74436	   2584	  27456	 104476	  1981c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+18:57:20 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:58:49 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:06:46 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:07:57 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74508	   2584	  27456	 104548	  19864	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:07:59 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:08:20 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74444	   2584	  27456	 104484	  19824	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:08:23 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:10:00 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74452	   2584	  27456	 104492	  1982c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:10:02 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:11:36 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74508	   2584	  27456	 104548	  19864	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:11:38 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:13:36 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74444	   2584	  27456	 104484	  19824	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:13:38 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:14:34 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74588	   2584	  27456	 104628	  198b4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:14:38 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:15:03 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74588	   2584	  27456	 104628	  198b4	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:15:05 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:15:56 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:58:20: warning: too many arguments for format [-Wformat-extra-args]
+             printf("Res=%d, mul=%d\n, A(i,j)=%d, memXi[j]", total, A(i,j)*memXi[j], A(i,j), memXi[j]);
+                    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74676	   2584	  27456	 104716	  1990c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:16:01 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74676	   2584	  27456	 104716	  1990c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:16:03 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:16:21 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74676	   2584	  27456	 104716	  1990c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:16:23 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:17:36 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74748	   2584	  27456	 104788	  19954	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:17:44 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74748	   2584	  27456	 104788	  19954	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:17:45 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:22:17 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+../src/ps_only.c: In function 'main':
+../src/ps_only.c:70:44: warning: 'total' is used uninitialized in this function [-Wuninitialized]
+     memX[i] = (float)memA_D_Inv[i]*(memB[i]-total);
+                                    ~~~~~~~~^~~~~~~
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74644	   2584	  27456	 104684	  198ec	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:22:50 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74708	   2584	  27456	 104748	  1992c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:23:14 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74708	   2584	  27456	 104748	  1992c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:23:25 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74564	   2584	  27456	 104604	  1989c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
+19:23:26 **** Incremental Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+19:24:09 **** Auto Build of configuration Debug for project ps_only ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/ps_only.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_only.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/ps_only.d" -MT"src/ps_only.o" -o "src/ps_only.o" "../src/ps_only.c"
+'Finished building: ../src/ps_only.c'
+' '
+'Building target: ps_only.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "ps_only.elf"  ./src/ps_only.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ps_only.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size ps_only.elf  |tee "ps_only.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  74564	   2584	  27456	 104604	  1989c	ps_only.elf
+'Finished building: ps_only.elf.size'
+' '
