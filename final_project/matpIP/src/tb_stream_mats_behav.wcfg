@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_stream_mats_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_stream_mats" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2830833333fs"></ZoomStartTime>
+      <ZoomEndTime time="2849633334fs"></ZoomEndTime>
+      <Cursor1Time time="3000000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="148"></NameColumnWidth>
+      <ValueColumnWidth column_width="73"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="31" />
+   <wvobject fp_name="/tb_stream_mats/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/rstn" type="logic">
+      <obj_property name="ElementShortName">rstn</obj_property>
+      <obj_property name="ObjectShortName">rstn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/S_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/S_AXIS_TLAST" type="array">
+      <obj_property name="ElementShortName">S_AXIS_TLAST[0:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TLAST[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/S_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/S_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">S_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">S_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/idataR" type="other">
+      <obj_property name="ElementShortName">idataR</obj_property>
+      <obj_property name="ObjectShortName">idataR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/M_AXIS_TDATA" type="array">
+      <obj_property name="ElementShortName">M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TDATA[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/M_AXIS_TLAST" type="array">
+      <obj_property name="ElementShortName">M_AXIS_TLAST[0:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TLAST[0:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/M_AXIS_TVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TVALID</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/M_AXIS_TREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXIS_TREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXIS_TREADY</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/next_state" type="other">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/selB" type="logic">
+      <obj_property name="ElementShortName">selB</obj_property>
+      <obj_property name="ObjectShortName">selB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/idataA" type="other">
+      <obj_property name="ElementShortName">idataA</obj_property>
+      <obj_property name="ObjectShortName">idataA</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/idataB" type="other">
+      <obj_property name="ElementShortName">idataB</obj_property>
+      <obj_property name="ObjectShortName">idataB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/ia" type="array">
+      <obj_property name="ElementShortName">ia[0:15]</obj_property>
+      <obj_property name="ObjectShortName">ia[0:15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/ib" type="array">
+      <obj_property name="ElementShortName">ib[0:15]</obj_property>
+      <obj_property name="ObjectShortName">ib[0:15]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/t_hdelay" type="other">
+      <obj_property name="ElementShortName">t_hdelay</obj_property>
+      <obj_property name="ObjectShortName">t_hdelay</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/dp_inst/data_A" type="array">
+      <obj_property name="ElementShortName">data_A[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_A[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/dp_inst/data_B" type="array">
+      <obj_property name="ElementShortName">data_B[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_B[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/dp_inst/init_acc" type="logic">
+      <obj_property name="ElementShortName">init_acc</obj_property>
+      <obj_property name="ObjectShortName">init_acc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/dp_inst/valid_A" type="logic">
+      <obj_property name="ElementShortName">valid_A</obj_property>
+      <obj_property name="ObjectShortName">valid_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/dp_inst/last_A" type="logic">
+      <obj_property name="ElementShortName">last_A</obj_property>
+      <obj_property name="ObjectShortName">last_A</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/dp_inst/valid_res" type="logic">
+      <obj_property name="ElementShortName">valid_res</obj_property>
+      <obj_property name="ObjectShortName">valid_res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/dp_inst/last_res" type="logic">
+      <obj_property name="ElementShortName">last_res</obj_property>
+      <obj_property name="ObjectShortName">last_res</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/rdcount" type="array">
+      <obj_property name="ElementShortName">rdcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rdcount[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/wrcount" type="array">
+      <obj_property name="ElementShortName">wrcount[9:0]</obj_property>
+      <obj_property name="ObjectShortName">wrcount[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/last_read_row" type="logic">
+      <obj_property name="ElementShortName">last_read_row</obj_property>
+      <obj_property name="ObjectShortName">last_read_row</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_stream_mats/uut/last_write" type="logic">
+      <obj_property name="ElementShortName">last_write</obj_property>
+      <obj_property name="ObjectShortName">last_write</obj_property>
+   </wvobject>
+</wave_config>
