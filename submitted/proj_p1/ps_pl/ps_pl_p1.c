@@ -1,3 +1,15 @@
+ /**************************\
+ * Co-Projecto Hw/Sw        *
+ *                          *
+ * Part 1 - proj_p1.c       *
+ *                          *
+ * Group 11                 *
+ *                          *
+ * João Ramiro - 81138      *
+ * José Vieira - 90900      *
+ *                          *
+ \**************************/
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
@@ -13,33 +25,37 @@
 #define MAX_ERROR 0.0000001
 
 /* Define pointers to each memory */
-volatile int *memA, *memB, *memX;
-volatile float *memA_D_Inv;
+volatile int *memA, *memB, *memRes, *memXi;
+volatile float *memA_D_Inv, *memX;
 
-/* Define a macro to each memory */
+/* Define a macro */
 #define A(I,J)     (memA[I*MATSIZE+J])
-#define B(I)       (memB[I])
-#define X(I)       (memX[I])
-#define A_D_INV(I) (memA_D_Inv[I])
 
 /* Define base address of each memory */
 #define A_START_ADD   0x10000000
 #define B_START_ADD   (A_START_ADD + MATRIX_SIZE)
 #define X_START_ADD   (B_START_ADD + VECTOR_SIZE)
 #define A_D_INV_ADD   (X_START_ADD + VECTOR_SIZE)
+#define RES_START_ADD (A_D_INV_ADD + VECTOR_SIZE)
 
-void show_results(int n_it, float* X, unsigned long long int clock_cycles, float u_sec);
+/* Methods */
+void show_results(int n_it, unsigned long long int clock_cycles, float u_sec);
+unsigned my_receive_from_fifo(void *BufPtr, unsigned nWords);
+unsigned my_send_to_fifo(void *BufPtr, unsigned nWords);
+int my_axis_fifo_init();
 
 int main() {
     XTime tStart, tEnd;
-    int i, j, total;
-    
+    int i;
+
     /* Points each pointer to the respective base address */
     memA       = (int *)(A_START_ADD);
     memB       = (int *)(B_START_ADD);
-    memX       = (int *)(X_START_ADD);
+    memRes     = (int *)(RES_START_ADD);
+    memXi      = (int *)(X_START_ADD);
+    memX       = (float *)(X_START_ADD);
     memA_D_Inv = (float *)(A_D_INV_ADD);
-    
+
     /* Start measuring time */
     XTime_GetTime(&tStart);
 
@@ -48,29 +64,36 @@ int main() {
          * apply the "if(i!=j)" in gauss method
          * by putting the diagonal to 0
          */
-        A_D_INV(i) = 1.0f/A(i,i);
+    	memA_D_Inv[i] = 1.0f/A(i,i);
         A(i,i) = 0;
     }
 
+    /* Initialize fifo */
+    my_axis_fifo_init();
+
+    /* Send to fifo vector X */
+    my_send_to_fifo((void *)memXi, MATSIZE);
+
+    /* Send to fifo matrix A */
+    my_send_to_fifo((void *)memA, MATSIZE*MATSIZE);
+
+    /* Receive from fifo vector Res */
+    my_receive_from_fifo((void *)memRes, MATSIZE);
+
     /* Gauss jacobi - only one iteration thus do not have a stop condition */
-    for (i = 0; i < MATZISE; i++){
-        total=0;
-        for (j = 0; j < MATZISE; j++){
-            total += A(i,j)*X(j);
-        }
-        X(i) = (float)A_D_INV(i)*(B(i)-total);
-    }
+    for (i = 0; i < MATSIZE; i++)
+    	memX[i] = (float)memA_D_Inv[i]*(memB[i]-memRes[i]);
 
     /* End measuring time */
     XTime_GetTime(&tEnd);
 
     /* Show results */
-    show_results(1, X, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
+    show_results(1, 2*(tEnd-tStart), 1.0*(tEnd-tStart)/(COUNTS_PER_SECOND/1000000));
 
     return 0;
 }
 
-void show_results(int n_it, float* X, unsigned long long int clock_cycles, float u_sec) {
+void show_results(int n_it, unsigned long long int clock_cycles, float u_sec) {
     float aux;
     int i, j;
 
@@ -85,23 +108,29 @@ void show_results(int n_it, float* X, unsigned long long int clock_cycles, float
 
     printf("\nMultiplication result - B=\n");
     for(i = 0; i < MATSIZE; i++)
-        printf("%3d\n", B(i));
-    
+        printf("%3d\n", memB[i]);
+
+    printf("\nMultiplication result(HW) - Res=\n");
+        for(i = 0; i < MATSIZE; i++)
+            printf("%d\n", memRes[i]);
+
     printf("\nSolution - X=\n");
     for(i = 0; i < MATSIZE; i++)
-        printf("%f\n", X[i]);
-    
+        printf("%f\n", memX[i]);
+
     printf("\nNumber iterations - M=\n%d\n", n_it);
-    
+
     printf("\nError - |B-(A*X)|=\n");
 
     for(i = 0; i < MATSIZE; i++){
         aux = 0;
         for(j = 0; j < MATSIZE; j++)
-            aux += A(i,j)*X(j);
-        printf("%f\n", fabs(B(i)-aux));
+            aux += A(i,j)*memX[j];
+        printf("%f\n", fabs(memB[i]-aux));
     }
 
     printf("\nclock cycles=\n%llu\n", clock_cycles);
     printf("\ntime(us)=\n%.2f\n\n", u_sec);
 }
+
+
