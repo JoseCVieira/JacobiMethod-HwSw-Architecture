@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_float_mats_behav/xsimk.exe -simmode gui -wdb tb_float_mats_behav.wdb -simrunnum 0 -socket 59642
+Design successfully loaded
+Design Loading Memory Usage: 10000 KB (Peak: 10000 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 12248 KB (Peak: 12248 KB)
+Simulation CPU Usage: 62 ms
