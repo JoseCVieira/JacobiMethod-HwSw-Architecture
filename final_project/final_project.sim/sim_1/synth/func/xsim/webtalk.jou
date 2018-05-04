@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2017.4.1 (64-bit)
+# SW Build 2117270 on Tue Jan 30 15:32:00 MST 2018
+# IP Build 2095745 on Tue Jan 30 17:13:15 MST 2018
+# Start of session at: Wed Apr 18 18:46:06 2018
+# Process ID: 3104
+# Current directory: C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.sim/sim_1/synth/func/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.sim/sim_1/synth/func/xsim/xsim.dir/tb_stream_mats_func_synth/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.sim/sim_1/synth/func/xsim/webtalk.log
+# Journal file: C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.sim/sim_1/synth/func/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/ASUS/Desktop/project_pl_ps/project_pl_ps.sim/sim_1/synth/func/xsim/xsim.dir/tb_stream_mats_func_synth/webtalk/xsim_webtalk.tcl -notrace
