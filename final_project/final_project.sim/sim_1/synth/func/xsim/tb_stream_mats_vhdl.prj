@@ -1,9 +1,0 @@
-# compile vhdl design source files
-vhdl xil_defaultlib  \
-"tb_stream_mats_func_synth.vhd" \
-"../../../../../matpIP/src/my_axis_int_matp_cnt.vhd" \
-"../../../../../matpIP/src/vect_prod_dpv.vhd" \
-"../../../../../matpIP/src/tb_stream_mats.vhd" \
-
-# Do not sort compile order
-nosort

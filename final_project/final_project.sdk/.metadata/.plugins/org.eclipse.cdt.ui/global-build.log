@@ -1,4 +1,4 @@
-20:00:09 **** Build of project standalone_bsp_0 ****
+17:06:23 **** Build of project standalone_bsp_0 ****
 make -k all 
 "Running Make include in ps7_cortexa9_0/libsrc/axidma_v9_5/src"
 make -C ps7_cortexa9_0/libsrc/axidma_v9_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
@@ -12,6 +12,8 @@ make -C ps7_cortexa9_0/libsrc/ddrps_v1_0/src -s include  "SHELL=CMD" "COMPILER=a
 make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
 "Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
 make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Running Make include in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
 "Running Make include in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
 make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s include  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
 "Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_1/src"
@@ -43,6 +45,9 @@ make -C ps7_cortexa9_0/libsrc/devcfg_v3_5/src -s libs  "SHELL=CMD" "COMPILER=arm
 "Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_3/src"
 make -C ps7_cortexa9_0/libsrc/dmaps_v2_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
 "Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/gpiops_v3_3/src"
+make -C ps7_cortexa9_0/libsrc/gpiops_v3_3/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
+"Compiling gpiops"
 "Running Make libs in ps7_cortexa9_0/libsrc/scugic_v3_8/src"
 make -C ps7_cortexa9_0/libsrc/scugic_v3_8/src -s libs  "SHELL=CMD" "COMPILER=arm-none-eabi-gcc" "ARCHIVER=arm-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -Wall -Wextra"
 "Compiling scugic"
@@ -66,102 +71,1092 @@ make -C ps7_cortexa9_0/libsrc/xadcps_v2_2/src -s libs  "SHELL=CMD" "COMPILER=arm
 **** Build of configuration Debug for project final_project ****
 
 Nothing to build for project final_project
-20:00:35 **** Auto Build of configuration Debug for project final_project ****
+
+****  of configuration Debug for project final_project ****
+
+Nothing to build for project final_project
+17:07:33 **** Auto Build of configuration Debug for project final_project ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/dma_int_matp.c'
+'Building file: ../src/gauss_jacobi.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_int_matp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_int_matp.d" -MT"src/dma_int_matp.o" -o "src/dma_int_matp.o" "../src/dma_int_matp.c"
-'Finished building: ../src/dma_int_matp.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
 ' '
 'Building target: final_project.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/dma_int_matp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 ../../standalone_bsp_0/ps7_cortexa9_0/lib\libxil.a(xil-crt0.o): In function `_start':
 xil-crt0.S:(.text+0x68): undefined reference to `main'
 collect2.exe: error: ld returned 1 exit status
 make: *** [final_project.elf] Error 1
-20:00:48 **** Auto Build of configuration Debug for project final_project ****
+17:07:38 **** Auto Build of configuration Debug for project final_project ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/dma_int_matp.c'
+'Building file: ../src/gauss_jacobi.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_int_matp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_int_matp.d" -MT"src/dma_int_matp.o" -o "src/dma_int_matp.o" "../src/dma_int_matp.c"
-../src/dma_int_matp.c: In function 'XAxiDma_Simple_MatProd':
-../src/dma_int_matp.c:171:19: error: token "{" is not valid in preprocessor expressions
-  #if CHECK_RESULT {
-                   ^
-make: *** [src/dma_int_matp.o] Error 1
-20:00:54 **** Auto Build of configuration Debug for project final_project ****
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:10:20 **** Incremental Build of configuration Debug for project final_project ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/dma_int_matp.c'
+make: Nothing to be done for `main-build'.
+17:14:22 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_int_matp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_int_matp.d" -MT"src/dma_int_matp.o" -o "src/dma_int_matp.o" "../src/dma_int_matp.c"
-../src/dma_int_matp.c: In function 'XAxiDma_Simple_MatProd':
-../src/dma_int_matp.c:181:7: warning: this 'for' clause does not guard... [-Wmisleading-indentation]
-       for (int k=0; k<N2; k++)
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:14:33 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:17:04 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:17:07 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:17:32 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:17:34 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:18:04 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:22:41 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:23:59 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:24:10 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:25:46 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:25:47 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:26:12 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85468	   2644	  20112	 108224	  1a6c0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:26:14 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:12 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:22 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85404	   2644	  20112	 108160	  1a680	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:32:23 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:32:30 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:38:17 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:38:20 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:38:31 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:38:41 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:39:24 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:40:24: error: 'B_START_ADD' undeclared (first use in this function)
+ #define B_START_ADD   (B_START_ADD + VECTOR_SIZE)
+                        ^
+../src/gauss_jacobi.c:82:26: note: in expansion of macro 'B_START_ADD'
+     memB       = (int *)(B_START_ADD);
+                          ^~~~~~~~~~~
+../src/gauss_jacobi.c:40:24: note: each undeclared identifier is reported only once for each function it appears in
+ #define B_START_ADD   (B_START_ADD + VECTOR_SIZE)
+                        ^
+../src/gauss_jacobi.c:82:26: note: in expansion of macro 'B_START_ADD'
+     memB       = (int *)(B_START_ADD);
+                          ^~~~~~~~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:39:25 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:40:24: error: 'B_START_ADD' undeclared (first use in this function)
+ #define B_START_ADD   (B_START_ADD + VECTOR_SIZE)
+                        ^
+../src/gauss_jacobi.c:82:26: note: in expansion of macro 'B_START_ADD'
+     memB       = (int *)(B_START_ADD);
+                          ^~~~~~~~~~~
+../src/gauss_jacobi.c:40:24: note: each undeclared identifier is reported only once for each function it appears in
+ #define B_START_ADD   (B_START_ADD + VECTOR_SIZE)
+                        ^
+../src/gauss_jacobi.c:82:26: note: in expansion of macro 'B_START_ADD'
+     memB       = (int *)(B_START_ADD);
+                          ^~~~~~~~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:39:58 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:40:01 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:41:10 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:90:22: warning: format '%f' expects argument of type 'double', but argument 2 has type 'int' [-Wformat=]
+             printf("%f\n", memXi[i]);
+                      ^
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:42:13 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:42:18 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:42:22 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:43:10 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:43:12 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:43:30 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85340	   2644	  20112	 108096	  1a640	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:43:34 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:43:47 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:44:01 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:46:09 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:46:12 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:46:37 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:46:46 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:47:06 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:47:59 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:49:58 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85252	   2644	  20112	 108008	  1a5e8	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:50:34 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:51:23 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85252	   2644	  20112	 108008	  1a5e8	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:51:29 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85084	   2644	  20112	 107840	  1a540	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:51:54 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84796	   2644	  20112	 107552	  1a420	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:52:59 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:53:57 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84876	   2644	  20112	 107632	  1a470	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:53:59 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:55:25 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84876	   2644	  20112	 107632	  1a470	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:55:27 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:56:35 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84876	   2644	  20112	 107632	  1a470	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:56:37 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:57:11 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:57:25 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84876	   2644	  20112	 107632	  1a470	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:57:26 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+17:58:12 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:161:3: error: 'memTB' undeclared (first use in this function)
+   memTB = (int *)(MAT_TB_START_ADD);
+   ^~~~~
+../src/gauss_jacobi.c:161:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/gauss_jacobi.c:162:3: error: 'memTC' undeclared (first use in this function)
+   memTC = (int *)(MAT_TC_START_ADD);
+   ^~~~~
+../src/gauss_jacobi.c:173:3: warning: implicit declaration of function 'MEMTB' [-Wimplicit-function-declaration]
+   MEMTB(j,i) = MEMB(i,j);
+   ^~~~~
+../src/gauss_jacobi.c:173:14: error: lvalue required as left operand of assignment
+   MEMTB(j,i) = MEMB(i,j);
+              ^
+../src/gauss_jacobi.c:213:15: warning: implicit declaration of function 'MEMTC' [-Wimplicit-function-declaration]
+   MEMC(i,j) = MEMTC(j,i);
+               ^~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:58:34 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:169:20: error: 'memTB' undeclared (first use in this function)
+   print_mat((int *)memTB,N3,N2,1);
+                    ^~~~~
+../src/gauss_jacobi.c:169:20: note: each undeclared identifier is reported only once for each function it appears in
+../src/gauss_jacobi.c:183:26: error: 'memTC' undeclared (first use in this function)
+     RxBufferPtr = (int *)memTC + (col*N1);
+                          ^~~~~
+../src/gauss_jacobi.c:204:15: warning: implicit declaration of function 'MEMTC' [-Wimplicit-function-declaration]
+   MEMC(i,j) = MEMTC(j,i);
+               ^~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:58:40 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:169:33: error: 'memTB' undeclared (first use in this function)
+   Xil_DCacheFlushRange((INTPTR)(memTB), (unsigned)(4*N2*N3));
+                                 ^~~~~
+../src/gauss_jacobi.c:169:33: note: each undeclared identifier is reported only once for each function it appears in
+../src/gauss_jacobi.c:181:26: error: 'memTC' undeclared (first use in this function)
+     RxBufferPtr = (int *)memTC + (col*N1);
+                          ^~~~~
+../src/gauss_jacobi.c:202:15: warning: implicit declaration of function 'MEMTC' [-Wimplicit-function-declaration]
+   MEMC(i,j) = MEMTC(j,i);
+               ^~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:58:53 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:174:26: error: 'memTB' undeclared (first use in this function)
+     TxBufferPtr = (int *)memTB + (col*N2);
+                          ^~~~~
+../src/gauss_jacobi.c:174:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/gauss_jacobi.c:198:38: error: 'memTC' undeclared (first use in this function)
+   Xil_DCacheInvalidateRange((INTPTR)(memTC), (unsigned)(4*N1*N3));
+                                      ^~~~~
+../src/gauss_jacobi.c:202:15: warning: implicit declaration of function 'MEMTC' [-Wimplicit-function-declaration]
+   MEMC(i,j) = MEMTC(j,i);
+               ^~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:58:57 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:198:38: error: 'memTC' undeclared (first use in this function)
+   Xil_DCacheInvalidateRange((INTPTR)(memTC), (unsigned)(4*N1*N3));
+                                      ^~~~~
+../src/gauss_jacobi.c:198:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/gauss_jacobi.c:202:15: warning: implicit declaration of function 'MEMTC' [-Wimplicit-function-declaration]
+   MEMC(i,j) = MEMTC(j,i);
+               ^~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:59:16 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:198:38: error: 'memTC' undeclared (first use in this function)
+   Xil_DCacheInvalidateRange((INTPTR)(memTC), (unsigned)(4*N1*N3));
+                                      ^~~~~
+../src/gauss_jacobi.c:198:38: note: each undeclared identifier is reported only once for each function it appears in
+../src/gauss_jacobi.c:202:15: warning: implicit declaration of function 'MEMTC' [-Wimplicit-function-declaration]
+   MEMC(i,j) = MEMTC(j,i);
+               ^~~~~
+make: *** [src/gauss_jacobi.o] Error 1
+17:59:20 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:202:15: warning: implicit declaration of function 'MEMTC' [-Wimplicit-function-declaration]
+   MEMC(i,j) = MEMTC(j,i);
+               ^~~~~
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/gauss_jacobi.o: In function `XAxiDma_Simple_MatProd':
+C:\Users\ASUS\Desktop\final_project\final_project.sdk\final_project\Debug/../src/gauss_jacobi.c:202: undefined reference to `MEMTC'
+collect2.exe: error: ld returned 1 exit status
+make: *** [final_project.elf] Error 1
+17:59:33 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:154:10: warning: unused variable 'j' [-Wunused-variable]
+   int i, j, col;
+          ^
+../src/gauss_jacobi.c:154:7: warning: unused variable 'i' [-Wunused-variable]
+   int i, j, col;
+       ^
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84492	   2644	  20096	 107232	  1a2e0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+17:59:37 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:00:05 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:152:10: warning: unused variable 'j' [-Wunused-variable]
+   int i, j, col;
+          ^
+../src/gauss_jacobi.c:152:7: warning: unused variable 'i' [-Wunused-variable]
+   int i, j, col;
+       ^
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84492	   2644	  20096	 107232	  1a2e0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+18:00:18 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:152:7: warning: unused variable 'j' [-Wunused-variable]
+   int j, col;
+       ^
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  84492	   2644	  20096	 107232	  1a2e0	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+18:00:23 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+../src/gauss_jacobi.c: In function 'XAxiDma_Simple_MatProd':
+../src/gauss_jacobi.c:152:3: error: 'intcol' undeclared (first use in this function)
+   intcol;
+   ^~~~~~
+../src/gauss_jacobi.c:152:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/gauss_jacobi.c:170:7: error: 'col' undeclared (first use in this function)
+  for (col=0; col < 1; col++) {
        ^~~
-../src/dma_int_matp.c:184:8: note: ...this statement, but the latter is misleadingly indented as if it is guarded by the 'for'
-        if (sum != MEMC(i,j)) {
-        ^~
-'Finished building: ../src/dma_int_matp.c'
-' '
-'Building target: final_project.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/dma_int_matp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: final_project.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  85316	   2644	  25232	 113192	  1ba28	final_project.elf
-'Finished building: final_project.elf.size'
-' '
-20:00:59 **** Auto Build of configuration Debug for project final_project ****
+make: *** [src/gauss_jacobi.o] Error 1
+18:00:24 **** Auto Build of configuration Debug for project final_project ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/dma_int_matp.c'
+'Building file: ../src/gauss_jacobi.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_int_matp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_int_matp.d" -MT"src/dma_int_matp.o" -o "src/dma_int_matp.o" "../src/dma_int_matp.c"
-'Finished building: ../src/dma_int_matp.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
 ' '
 'Building target: final_project.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/dma_int_matp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: final_project.elf'
 ' '
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  85316	   2644	  25232	 113192	  1ba28	final_project.elf
+  84492	   2644	  20096	 107232	  1a2e0	final_project.elf
 'Finished building: final_project.elf.size'
 ' '
-20:01:29 **** Clean-only build of configuration Debug for project final_project ****
-make clean 
-rm -rf  ./src/dma_int_matp.o  ./src/dma_int_matp.d  final_project.elf.size  final_project.elf
-' '
-20:01:29 **** Auto Build of configuration Debug for project final_project ****
+18:00:28 **** Incremental Build of configuration Debug for project final_project ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/dma_int_matp.c'
+make: Nothing to be done for `main-build'.
+18:01:00 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
 'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_int_matp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_int_matp.d" -MT"src/dma_int_matp.o" -o "src/dma_int_matp.o" "../src/dma_int_matp.c"
-'Finished building: ../src/dma_int_matp.c'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
 ' '
 'Building target: final_project.elf'
 'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/dma_int_matp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 'Finished building target: final_project.elf'
 ' '
 'Invoking: ARM v7 Print Size'
 arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  85316	   2644	  28912	 116872	  1c888	final_project.elf
+  84492	   2644	  20096	 107232	  1a2e0	final_project.elf
 'Finished building: final_project.elf.size'
 ' '
+18:01:01 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:02:16 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+18:02:18 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.
+18:02:38 **** Auto Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/gauss_jacobi.d" -MT"src/gauss_jacobi.o" -o "src/gauss_jacobi.o" "../src/gauss_jacobi.c"
+'Finished building: ../src/gauss_jacobi.c'
+' '
+'Building target: final_project.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/gauss_jacobi.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_project.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  85532	   2644	  20112	 108288	  1a700	final_project.elf
+'Finished building: final_project.elf.size'
+' '
+18:02:40 **** Incremental Build of configuration Debug for project final_project ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+make: Nothing to be done for `main-build'.

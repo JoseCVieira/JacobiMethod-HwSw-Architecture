@@ -837,7 +837,7 @@
       parameter C_USE_S_AXI_HP3 = 0;
       parameter C_USE_S_AXI_ACP = 0;
       parameter C_PS7_SI_REV = "PRODUCTION";
-      parameter C_FCLK_CLK0_BUF = "FALSE";
+      parameter C_FCLK_CLK0_BUF = "TRUE";
       parameter C_FCLK_CLK1_BUF = "FALSE";
       parameter C_FCLK_CLK2_BUF = "FALSE";
       parameter C_FCLK_CLK3_BUF = "FALSE";

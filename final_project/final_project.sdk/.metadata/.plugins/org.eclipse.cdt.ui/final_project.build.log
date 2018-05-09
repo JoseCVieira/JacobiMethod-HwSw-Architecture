@@ -1,23 +1,8 @@
-20:01:29 **** Auto Build of configuration Debug for project final_project ****
+18:02:40 **** Incremental Build of configuration Debug for project final_project ****
 make pre-build main-build 
 a9-linaro-pre-build-step
 ' '
-'Building file: ../src/dma_int_matp.c'
-'Invoking: ARM v7 gcc compiler'
-arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/dma_int_matp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/dma_int_matp.d" -MT"src/dma_int_matp.o" -o "src/dma_int_matp.o" "../src/dma_int_matp.c"
-'Finished building: ../src/dma_int_matp.c'
-' '
-'Building target: final_project.elf'
-'Invoking: ARM v7 gcc linker'
-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "final_project.elf"  ./src/dma_int_matp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-'Finished building target: final_project.elf'
-' '
-'Invoking: ARM v7 Print Size'
-arm-none-eabi-size final_project.elf  |tee "final_project.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  85316	   2644	  28912	 116872	  1c888	final_project.elf
-'Finished building: final_project.elf.size'
-' '
+make: Nothing to be done for `main-build'.
 
-20:01:29 Build Finished (took 695ms)
+18:02:40 Build Finished (took 199ms)
 

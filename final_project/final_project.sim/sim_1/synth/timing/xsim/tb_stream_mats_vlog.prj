@@ -1,6 +1,0 @@
-# compile verilog/system verilog design source files
-verilog xil_defaultlib  --include "../../../../../project_pl_ps.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../../project_pl_ps.srcs/sources_1/bd/design_1/ipshared/02c8/hdl/verilog" --include "../../../../../project_pl_ps.srcs/sources_1/bd/design_1/ipshared/1313/hdl" --include "C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include" \
-"tb_stream_mats_time_synth.v" \
-
-# Do not sort compile order
-nosort

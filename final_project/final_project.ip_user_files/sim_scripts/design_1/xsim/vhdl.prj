@@ -1,4 +1,11 @@
 vhdl xil_defaultlib  \
+"../../../bd/design_1/ipshared/02f0/src/vect_prod_dpv.vhd" \
+"../../../bd/design_1/ipshared/02f0/src/my_axis_int_matp_cnt.vhd" \
+"../../../bd/design_1/ip/design_1_my_axis_int_matp_cnt_0_1/sim/design_1_my_axis_int_matp_cnt_0_1.vhd" \
+"../../../bd/design_1/ip/design_1_axi_dma_0_0/sim/design_1_axi_dma_0_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_1/sim/bd_afc3_psr_aclk_0.vhd" \
+"../../../bd/design_1/ip/design_1_axi_smc_0/sim/design_1_axi_smc_0.vhd" \
+"../../../bd/design_1/ip/design_1_rst_ps7_0_100M_0/sim/design_1_rst_ps7_0_100M_0.vhd" \
 "../../../bd/design_1/sim/design_1.vhd" \
 
 nosort

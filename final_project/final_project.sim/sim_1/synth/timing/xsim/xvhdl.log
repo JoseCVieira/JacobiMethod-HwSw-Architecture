@@ -1,6 +1,0 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/project_pl_ps/matpIP/src/my_axis_int_matp_cnt.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity my_axis_int_matp_cnt
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/project_pl_ps/matpIP/src/vect_prod_dpv.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity vect_prod_dpv
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ASUS/Desktop/project_pl_ps/matpIP/src/tb_stream_mats.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity tb_stream_mats

@@ -7,13 +7,13 @@ LD_SRCS += \
 ../src/lscript.ld 
 
 C_SRCS += \
-../src/dma_int_matp.c 
+../src/gauss_jacobi.c 
 
 OBJS += \
-./src/dma_int_matp.o 
+./src/gauss_jacobi.o 
 
 C_DEPS += \
-./src/dma_int_matp.d 
+./src/gauss_jacobi.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
