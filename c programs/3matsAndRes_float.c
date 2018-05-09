@@ -80,8 +80,9 @@ int main(int argc, char *argv[])
 
   fp = fopen("data.bin", "wb");
 
-  fwrite(memA, sizeof (int), (N1*N2), fp);
-  //fwrite(memB, sizeof (int), (N2*N3), fp);
+  fwrite(memA, sizeof (float), (N1*N2), fp);
+  fwrite(memB, sizeof (float), (N2*N3), fp);
+  fwrite(memX, sizeof (float), (N2*N3), fp);
 
 #if 1
 printf("MEMA\n");
