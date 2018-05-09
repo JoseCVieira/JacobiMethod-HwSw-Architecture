@@ -78,7 +78,7 @@ int main(int argc, char *argv[])
   //fwrite(memB, sizeof (int), (N2*N3), fp);
 
 #if 1
-  printf("\n MATRIX A");
+  printf("\n MATRIX A\n");
   for (i = 0; i < N1; ++i) {
     for (j = 0; j < N2; ++j) {
       printf ("%d ", MEMA(i,j));
@@ -87,10 +87,18 @@ int main(int argc, char *argv[])
   }
 
 
-  printf("\nMATRIX B");
+  printf("\nMATRIX B\n");
   for (i = 0; i < N1; ++i) {
     for (j = 0; j < N2; ++j) {
       printf ("%d ", MEMB(i,j));
+    }
+    printf("\n");
+  }
+
+  printf("\nMATRIX RES\n");
+  for (i = 0; i < N1; ++i) {
+    for (j = 0; j < N2; ++j) {
+      printf ("%d ", MEMC(i,j));
     }
     printf("\n");
   }
