@@ -56,7 +56,7 @@ int main(int argc, char *argv[])
       MEMA(i,j) = ((float)rand()/(float)(999)-(RAND_MAX/2000));
       soma += abs(MEMA(i,j));
     }
-    MEMA(i,i)= soma*soma*1000;
+    MEMA(i,i)= soma*10;
   }
   for (i = 0; i < N2; ++i) {
     for (j = 0; j < N3; ++j) {
