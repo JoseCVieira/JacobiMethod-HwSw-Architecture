@@ -1,6 +1,5 @@
 # Jacobi method
-Implementation of Jacobi method in a co-processing architecture Hw/Sw using FPGA (Field Programmable Gate Array) ZYBO Zynq-7000 Develop-
-ment Board for Co-Project Hw/Sw course.
+Implementation of Jacobi method in a co-processing architecture Hw/Sw using FPGA (Field Programmable Gate Array) ZYBO Zynq-7000 Development Board for Co-Project Hw/Sw course.
 
 ### Description:
 ###### From Wikipedia, the free encyclopedia
