@@ -1,0 +1,11 @@
+sem cache
+normVal = 8613.588
+normVal = 1.340
+normVal = 0.000
+normVal = 0.000
+
+com cache
+normVal = 8613.588
+normVal = 0.817
+normVal = 0.000
+normVal = 0.000
