@@ -1,0 +1,37 @@
+/*
+* Co-Projecto Hw/Sw
+*
+* Group 11
+* João Ramiro - 81138
+* José Vieira - 90900
+*
+* gauss_jacobi1.c
+*/
+
+#include "gauss_jacobi1.h"
+
+/* Define pointers to sync memory */
+volatile int *sync_f = (int *)0xFFFF0000;
+
+int main() {
+	float x[MATSIZE/2], normVal;
+	int i, it = 0;
+
+	//Xil_DCacheDisable();
+	Xil_DCacheInvalidate();
+
+	// Disable cache on OCM region
+	Xil_SetTlbAttributes(0xFFFF0000, 0x14de2);
+
+	if (init_XAxiDma_SimplePollMode(DMA_DEV_ID_1, &AxiDma_1) != XST_SUCCESS) return XST_FAILURE;
+
+	if (XAxiDma_Simple_MatProd() != XST_SUCCESS) return XST_FAILURE;
+
+	return XST_SUCCESS;
+}
+
+int XAxiDma_Simple_MatProd() {
+
+
+
+}

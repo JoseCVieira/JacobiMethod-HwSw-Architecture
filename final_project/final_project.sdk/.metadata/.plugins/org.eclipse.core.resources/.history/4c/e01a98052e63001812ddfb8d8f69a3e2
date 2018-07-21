@@ -1,0 +1,86 @@
+/*
+ * gauss_jacobi1.c
+ *
+ *  Created on: 25/05/2018
+ *      Author: Ramiro
+ */
+
+/*
+* Co-Projecto Hw/Sw
+*
+* Group 11
+* João Ramiro - 81138
+* José Vieira - 90900
+*
+* gauss_jacobi.c
+*/
+
+
+#include "gauss_jacobi1.h"
+
+/* Semaphore flags*/
+#define PROC0_STARTED 11
+#define PROC1_STARTED 22
+#define PROC1_COMPLETED 33
+
+int main() {
+	int i;
+
+	// Disable cache on OCM region
+	Xil_SetTlbAttributes(0xFFFF0000,0x14de2);
+	// see Xilinx XAPP1079
+
+	//equivale ao 0x100000 onde esta  a matriz?
+	volatile int *sync_f = (int *)0xFFFF0000;
+
+	while (*sync_f != PROC0_STARTED); // Wait for P0
+	*sync_f = PROC1_STARTED;
+
+	int a =1;
+		while(a<10000000)
+		{
+			a++;
+		}
+
+	for (i = 0; i < MATSIZE; i++){
+		/* Get the inverse of A(i,i) and
+		 * apply the "if(i!=j)" in gauss method
+		 * by putting the diagonal to 0
+		 */
+		memA_D_Inv[i] = 1.0f/A(i,i);
+		A(i,i) = 0;
+	}
+
+	*sync_f = PROC1_COMPLETED;
+
+
+
+}
+
+
+/*int init_XAxiDma_SimplePollMode(u16 DeviceId, XAxiDma *AxiDma) {
+	XAxiDma_Config *CfgPtr;
+	int Status;
+
+	CfgPtr = XAxiDma_LookupConfig(DeviceId);
+	if (!CfgPtr) {
+		printf("No config found for %d\r\n", DeviceId);
+		return XST_FAILURE;
+	}
+
+	Status = XAxiDma_CfgInitialize(AxiDma, CfgPtr);
+	if (Status != XST_SUCCESS) {
+		printf("Initialization failed %d\r\n", Status);
+		return XST_FAILURE;
+	}
+
+	if(XAxiDma_HasSg(AxiDma)){
+		printf("Device configured as SG mode \r\n");
+		return XST_FAILURE;
+	}
+
+	XAxiDma_IntrDisable(AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+	XAxiDma_IntrDisable(AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+
+	return XST_SUCCESS;
+}*/

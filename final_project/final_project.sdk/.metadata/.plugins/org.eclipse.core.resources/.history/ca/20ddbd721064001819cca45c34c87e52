@@ -1,0 +1,75 @@
+/*
+* Co-Projecto Hw/Sw
+*
+* Group 11
+* João Ramiro - 81138
+* José Vieira - 90900
+*
+* gauss_jacobi1.c
+*/
+
+#include "gauss_jacobi1.h"
+
+/* Define pointers to sync memory */
+volatile int *sync_f = (int *)0xFFFF0000;
+
+int main() {
+	//Xil_DCacheDisable();
+	Xil_DCacheInvalidate();
+
+	// Disable cache on OCM region
+	Xil_SetTlbAttributes(0xFFFF0000, 0x14de2);
+
+	//if (init_XAxiDma_SimplePollMode(DMA_DEV_ID_1, &AxiDma_1) != XST_SUCCESS) return XST_FAILURE;
+
+	XAxiDma_Simple_MatProd();
+
+	/*if (XAxiDma_Simple_MatProd() != XST_SUCCESS) return XST_FAILURE;
+
+	return XST_SUCCESS;*/
+}
+
+int XAxiDma_Simple_MatProd() {
+	float x[MATSIZE/2], normVal;
+	int i, it = 0;
+
+	/* Points each pointer to the respective base address */
+	memA       = (float *)(A_START_ADD);
+	memB       = (float *)(B_START_ADD);
+	memRes     = (float *)(RES_START_ADD);
+	memX       = (float *)(X_START_ADD);
+	memA_D_Inv = (float *)(A_D_INV_ADD);
+	norm_value = (float *)(NORM_ADD);
+
+	// Disable cache on OCM region
+	Xil_SetTlbAttributes(0xFFFF0000,0x14de2);
+
+	for (i = MATSIZE/2; i < MATSIZE; i++){
+		memA_D_Inv[i] = 1.0f/A(i,i);
+		A(i,i) = 0;
+	}
+
+	Xil_DCacheFlushRange((INTPTR)memA + MATRIX_SIZE/2, (unsigned)(MATRIX_SIZE/2));
+	*sync_f = PROC1_STARTED;
+
+	while(1) {
+		while (*sync_f != PROC0_STARTED);
+		*sync_f = PROC1_RESTARTED;
+
+		//if(!it) Xil_DCacheInvalidateRange((INTPTR)memA_D_Inv + VECTOR_SIZE/2, VECTOR_SIZE/2);
+		Xil_DCacheInvalidateRange((INTPTR)memRes + VECTOR_SIZE/2, VECTOR_SIZE/2);
+
+		normVal = 0;
+		for (i = MATSIZE/2; i < MATSIZE; i++){
+			x[i-(MATSIZE/2)] = memX[i];
+			memX[i] = (float)memA_D_Inv[i] * (memB[i]-memRes[i]);
+			normVal += (x[i-(MATSIZE/2)] - memX[i]) * (x[i-(MATSIZE/2)] - memX[i]);
+		}
+		*norm_value = normVal;
+
+		Xil_DCacheFlushRange((INTPTR)memX + VECTOR_SIZE/2, (unsigned)(VECTOR_SIZE/2));
+		Xil_DCacheFlushRange((INTPTR)norm_value, (unsigned)(FLOAT_SIZE));
+
+		*sync_f = PROC1_COMPLETED;
+	}
+}

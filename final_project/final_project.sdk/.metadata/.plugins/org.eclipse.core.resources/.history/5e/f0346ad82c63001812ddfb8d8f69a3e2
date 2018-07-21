@@ -1,0 +1,31 @@
+#include "gauss_jacobi1.h"
+
+/* DMA functions */
+int init_XAxiDma_SimplePollMode(u16 DeviceId, XAxiDma *AxiDma) {
+	XAxiDma_Config *CfgPtr;
+	int Status;
+
+	/* Initialize the XAxiDma device.	 */
+	CfgPtr = XAxiDma_LookupConfig(DeviceId);
+	if (!CfgPtr) {
+		printf("No config found for %d\r\n", DeviceId);
+		return XST_FAILURE;
+	}
+
+	Status = XAxiDma_CfgInitialize(AxiDma, CfgPtr);
+	if (Status != XST_SUCCESS) {
+		printf("Initialization failed %d\r\n", Status);
+		return XST_FAILURE;
+	}
+
+	if(XAxiDma_HasSg(AxiDma)){
+		printf("Device configured as SG mode \r\n");
+		return XST_FAILURE;
+	}
+
+	/* Disable interrupts, we use polling mode	 */
+	XAxiDma_IntrDisable(AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+	XAxiDma_IntrDisable(AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+
+	return XST_SUCCESS;
+}

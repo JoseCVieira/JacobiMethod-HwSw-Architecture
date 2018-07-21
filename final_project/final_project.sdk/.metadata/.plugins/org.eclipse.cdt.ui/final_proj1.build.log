@@ -1,0 +1,23 @@
+13:29:19 **** Auto Build of configuration Debug for project final_proj1 ****
+make pre-build main-build 
+a9-linaro-pre-build-step
+' '
+'Building file: ../src/gauss_jacobi1.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/gauss_jacobi1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../standalone_bsp_1/ps7_cortexa9_1/include -MMD -MP -MF"src/gauss_jacobi1.d" -MT"src/gauss_jacobi1.o" -o "src/gauss_jacobi1.o" "../src/gauss_jacobi1.c"
+'Finished building: ../src/gauss_jacobi1.c'
+' '
+'Building target: final_proj1.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_1/ps7_cortexa9_1/lib -o "final_proj1.elf"  ./src/auxiliar_functions1.o ./src/gauss_jacobi1.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: final_proj1.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size final_proj1.elf  |tee "final_proj1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  35700	   2324	  24536	  62560	   f460	final_proj1.elf
+'Finished building: final_proj1.elf.size'
+' '
+
+13:29:22 Build Finished (took 3s.518ms)
+

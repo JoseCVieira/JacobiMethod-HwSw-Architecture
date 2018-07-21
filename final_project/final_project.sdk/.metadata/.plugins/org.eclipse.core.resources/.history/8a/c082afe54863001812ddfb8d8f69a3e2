@@ -1,0 +1,87 @@
+/*
+ * gauss_jacobi1.c
+ *
+ *  Created on: 25/05/2018
+ *      Author: Ramiro
+ */
+
+/*
+* Co-Projecto Hw/Sw
+*
+* Group 11
+* João Ramiro - 81138
+* José Vieira - 90900
+*
+* gauss_jacobi.c
+*/
+
+#include "gauss_jacobi1.h"
+
+/* Define pointers to sync memory */
+volatile int *sync_f = (int *)0xFFFF0000;
+
+int main() {
+	float x[MATSIZE/2];
+
+	//Xil_DCacheDisable();
+	Xil_DCacheInvalidate();
+
+	// Disable cache on OCM region
+	Xil_SetTlbAttributes(0xFFFF0000,0x14de2);
+
+	/* Points each pointer to the respective base address */
+	memA       = (float *)(A_START_ADD);
+	memB       = (float *)(B_START_ADD);
+	memRes     = (float *)(RES_START_ADD);
+	memX       = (float *)(X_START_ADD);
+	memA_D_Inv = (float *)(A_D_INV_ADD);
+	norm_value = NORM_ADD;
+
+	// Disable cache on OCM region
+	Xil_SetTlbAttributes(0xFFFF0000,0x14de2);
+
+	volatile int *sync_f = (int *)0xFFFF0000;
+
+	while (*sync_f != PROC0_STARTED); // Wait for P0
+	*sync_f = PROC1_STARTED;
+
+	int i, a =1;
+	while(a<10000000) a++;
+
+	/*norm_value = 0;
+	for (i = MATSIZE/2; i < MATSIZE; i++){
+		x[i] = memX[i];
+		memX[i] = (float)memA_D_Inv[i] * (memB[i]-memRes[i]);
+		norm_value += (x[i] - memX[i]) * (x[i] - memX[i]);
+	}*/
+
+	*sync_f = PROC1_COMPLETED;
+}
+
+
+/*int init_XAxiDma_SimplePollMode(u16 DeviceId, XAxiDma *AxiDma) {
+	XAxiDma_Config *CfgPtr;
+	int Status;
+
+	CfgPtr = XAxiDma_LookupConfig(DeviceId);
+	if (!CfgPtr) {
+		printf("No config found for %d\r\n", DeviceId);
+		return XST_FAILURE;
+	}
+
+	Status = XAxiDma_CfgInitialize(AxiDma, CfgPtr);
+	if (Status != XST_SUCCESS) {
+		printf("Initialization failed %d\r\n", Status);
+		return XST_FAILURE;
+	}
+
+	if(XAxiDma_HasSg(AxiDma)){
+		printf("Device configured as SG mode \r\n");
+		return XST_FAILURE;
+	}
+
+	XAxiDma_IntrDisable(AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DEVICE_TO_DMA);
+	XAxiDma_IntrDisable(AxiDma, XAXIDMA_IRQ_ALL_MASK, XAXIDMA_DMA_TO_DEVICE);
+
+	return XST_SUCCESS;
+}*/
