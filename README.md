@@ -12,3 +12,17 @@ There are 4 projects in this repository:
 - project_ps_only - implements the method using the FPGA but only in software
 - project_pl_ps - method  implemented in a co-processing architecture Hw/Sw without the use of DMA
 - final_project - final version of the implementation, where the best results are obtained (Speedup~8.5)
+
+### Contributors:
+
+	-Name: 		José Carlos Vieira
+	-e-mail:	josecarlosvieira@tecnico.ulisboa.pt
+	-Degree: 	MEEC
+  
+	-Name:		João Ramiro
+	-e-mail:	joao.ramiro@tecnico.ulisboa.pt
+	-Degree:	MEEC
+
+### Institution:
+
+	-Instituto Superior Técnico, Universidade de Lisboa (2017/2018)
